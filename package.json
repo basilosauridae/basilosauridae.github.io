@@ -8,7 +8,8 @@
   "scripts": {
     "dev": "vuepress dev .",
     "start": "vuepress dev .",
-    "build": "vuepress build ."
+    "build": "vuepress build .",
+    "test": "echo "Error: no test specified" && exit 1"
   },
   "dependencies": {
     "vuepress": "2.0.0-beta.39",
