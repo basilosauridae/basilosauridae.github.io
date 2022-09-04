@@ -1,1 +1,0 @@
-const t={key:"v-b03da52c",path:"/theme/whirligig.html",title:"\u65CB\u8F6C\u6728\u9A6C",lang:"en-US",frontmatter:{title:"\u65CB\u8F6C\u6728\u9A6C",date:"2020-12-24T00:00:00.000Z",tags:["css"]},excerpt:"",headers:[],git:{updatedTime:1662302126e3,contributors:[{name:"huying",email:"2369700690@qq.com",commits:1}]},filePathRelative:"theme/whirligig.md"};export{t as data};
