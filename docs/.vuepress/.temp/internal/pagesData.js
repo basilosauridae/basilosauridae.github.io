@@ -15,20 +15,18 @@ export const pagesData = {
   "v-e04f83ea": () => import(/* webpackChunkName: "v-e04f83ea" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/vue/theCore.html.js").then(({ data }) => data),
   // path: /vue/vue3.html
   "v-6abdbdea": () => import(/* webpackChunkName: "v-6abdbdea" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/vue/vue3.html.js").then(({ data }) => data),
+  // path: /blogs/2022/autumn/exagearKeyboard/
+  "v-21468a6c": () => import(/* webpackChunkName: "v-21468a6c" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/blogs/2022/autumn/exagearKeyboard/index.html.js").then(({ data }) => data),
+  // path: /blogs/2022/autumn/traditionActivity/
+  "v-abdb183a": () => import(/* webpackChunkName: "v-abdb183a" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/blogs/2022/autumn/traditionActivity/index.html.js").then(({ data }) => data),
+  // path: /blogs/2022/autumn/gamekeyboardOnAndroid12/
+  "v-9f676054": () => import(/* webpackChunkName: "v-9f676054" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/blogs/2022/autumn/gamekeyboardOnAndroid12/index.html.js").then(({ data }) => data),
+  // path: /blogs/2022/summer/adblockplus/
+  "v-9ef213de": () => import(/* webpackChunkName: "v-9ef213de" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/blogs/2022/summer/adblockplus/index.html.js").then(({ data }) => data),
   // path: /blogs/2022/summer/addGifImageView/
   "v-76083ad0": () => import(/* webpackChunkName: "v-76083ad0" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/blogs/2022/summer/addGifImageView/index.html.js").then(({ data }) => data),
   // path: /blogs/2022/summer/batchCover/
   "v-4a18aba8": () => import(/* webpackChunkName: "v-4a18aba8" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/blogs/2022/summer/batchCover/index.html.js").then(({ data }) => data),
-  // path: /blogs/2022/summer/blockdanmu/
-  "v-4aff2c1d": () => import(/* webpackChunkName: "v-4aff2c1d" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/blogs/2022/summer/blockdanmu/index.html.js").then(({ data }) => data),
-  // path: /blogs/2022/summer/changeuserdataLocation/
-  "v-13b40eef": () => import(/* webpackChunkName: "v-13b40eef" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/blogs/2022/summer/changeuserdataLocation/index.html.js").then(({ data }) => data),
-  // path: /blogs/2022/summer/exagearInitContainer/detailed.html
-  "v-3fe6e6d4": () => import(/* webpackChunkName: "v-3fe6e6d4" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/blogs/2022/summer/exagearInitContainer/detailed.html.js").then(({ data }) => data),
-  // path: /blogs/exagearInitContainer/
-  "v-08f501e4": () => import(/* webpackChunkName: "v-08f501e4" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/blogs/exagearInitContainer/index.html.js").then(({ data }) => data),
-  // path: /blogs/2022/summer/exagearObbInApk/
-  "v-6489a350": () => import(/* webpackChunkName: "v-6489a350" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/blogs/2022/summer/exagearObbInApk/index.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
   // path: /categories/jishu/1/
@@ -63,28 +61,8 @@ export const pagesData = {
   "v-01fa5af8": () => import(/* webpackChunkName: "v-01fa5af8" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/tags/canvas/1/index.html.js").then(({ data }) => data),
   // path: /tags/vue/1/
   "v-12186d64": () => import(/* webpackChunkName: "v-12186d64" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/tags/vue/1/index.html.js").then(({ data }) => data),
-  // path: /tags/dex/1/
-  "v-1aef459a": () => import(/* webpackChunkName: "v-1aef459a" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/tags/dex/1/index.html.js").then(({ data }) => data),
-  // path: /tags/obb/1/
-  "v-0519655b": () => import(/* webpackChunkName: "v-0519655b" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/tags/obb/1/index.html.js").then(({ data }) => data),
-  // path: /tags/SharePreference/1/
-  "v-2a9a98f0": () => import(/* webpackChunkName: "v-2a9a98f0" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/tags/SharePreference/1/index.html.js").then(({ data }) => data),
-  // path: /tags/youhou/1/
-  "v-6d4b5dbe": () => import(/* webpackChunkName: "v-6d4b5dbe" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/tags/youhou/1/index.html.js").then(({ data }) => data),
-  // path: /tags/JavaScript/1/
-  "v-6b013903": () => import(/* webpackChunkName: "v-6b013903" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/tags/JavaScript/1/index.html.js").then(({ data }) => data),
-  // path: /tags/danmu/1/
-  "v-de75cc5e": () => import(/* webpackChunkName: "v-de75cc5e" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/tags/danmu/1/index.html.js").then(({ data }) => data),
   // path: /tags/css/1/
   "v-1cd2f072": () => import(/* webpackChunkName: "v-1cd2f072" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/tags/css/1/index.html.js").then(({ data }) => data),
-  // path: /tags/pvz/1/
-  "v-07f2fcf6": () => import(/* webpackChunkName: "v-07f2fcf6" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/tags/pvz/1/index.html.js").then(({ data }) => data),
-  // path: /tags/java/1/
-  "v-d5e062a4": () => import(/* webpackChunkName: "v-d5e062a4" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/tags/java/1/index.html.js").then(({ data }) => data),
-  // path: /tags/smali/1/
-  "v-0b7ef5e6": () => import(/* webpackChunkName: "v-0b7ef5e6" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/tags/smali/1/index.html.js").then(({ data }) => data),
-  // path: /tags/youxicundang/1/
-  "v-43a76bee": () => import(/* webpackChunkName: "v-43a76bee" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/tags/youxicundang/1/index.html.js").then(({ data }) => data),
   // path: /timeline/
   "v-01560935": () => import(/* webpackChunkName: "v-01560935" */"D:/workSpace/Basilosauridae.github.io/docs/.vuepress/.temp/pages/timeline/index.html.js").then(({ data }) => data),
   // path: /posts/1/

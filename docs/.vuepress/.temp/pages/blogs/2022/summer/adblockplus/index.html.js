@@ -1,4 +1,4 @@
-export const data = JSON.parse("{\"key\":\"v-9ef213de\",\"path\":\"/blogs/2022/summer/adblockplus/\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"git\":{\"createdTime\":null,\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"blogs/2022/summer/adblockplus/index.md\"}")
+export const data = JSON.parse("{\"key\":\"v-9ef213de\",\"path\":\"/blogs/2022/summer/adblockplus/\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"git\":{\"createdTime\":1662374619000,\"updatedTime\":1662374619000,\"contributors\":[{\"name\":\"huying\",\"email\":\"2369700690@qq.com\",\"commits\":1}]},\"filePathRelative\":\"blogs/2022/summer/adblockplus/index.md\"}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

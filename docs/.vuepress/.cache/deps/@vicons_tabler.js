@@ -5,7 +5,7 @@ import {
   init_define_POSTS,
   init_define_SEARCH_HOT_KEYS,
   init_define_SEARCH_LOCALES
-} from "./chunk-ROPTE7GE.js";
+} from "./chunk-WOQNAUT6.js";
 
 // dep:@vicons_tabler
 init_define_CLASSIFICATION_PAGINATION_POSTS();

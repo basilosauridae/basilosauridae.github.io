@@ -1,6 +1,6 @@
 import {
   setupDevtoolsPlugin
-} from "./chunk-PPO3VURV.js";
+} from "./chunk-SXUDIN4S.js";
 import {
   init_define_CLASSIFICATION_PAGINATION_POSTS,
   init_define_CLASSIFICATION_SUMMARY,
@@ -8,7 +8,7 @@ import {
   init_define_POSTS,
   init_define_SEARCH_HOT_KEYS,
   init_define_SEARCH_LOCALES
-} from "./chunk-ROPTE7GE.js";
+} from "./chunk-WOQNAUT6.js";
 
 // dep:vue-router
 init_define_CLASSIFICATION_PAGINATION_POSTS();

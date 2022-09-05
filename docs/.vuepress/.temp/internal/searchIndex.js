@@ -1,12 +1,5 @@
 export const searchIndex = [
   {
-    "title": "",
-    "headers": [],
-    "path": "/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "我的前端之路",
     "headers": [
       {
@@ -276,40 +269,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "批量生成b站合集的封面图",
-        "slug": "批量生成b站合集的封面图",
-        "children": []
-      }
-    ],
-    "path": "/blogs/app/batchCover/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "解决安卓11和12无法通过音量键+调出游戏键盘",
-    "headers": [
-      {
-        "level": 2,
-        "title": "解决办法",
-        "slug": "解决办法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "演示",
-        "slug": "演示",
-        "children": []
-      }
-    ],
-    "path": "/blogs/2022/autumn/gamekeyboardOnAndroid12/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "解决安卓12的应用，无法通过PopupMenu唤起软键盘（键盘闪退）问题（exagear为例）",
     "headers": [
       {
@@ -421,6 +380,26 @@ export const searchIndex = [
       }
     ],
     "path": "/blogs/2022/autumn/traditionActivity/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "解决安卓11和12无法通过音量键+调出游戏键盘",
+    "headers": [
+      {
+        "level": 2,
+        "title": "解决办法",
+        "slug": "解决办法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "演示",
+        "slug": "演示",
+        "children": []
+      }
+    ],
+    "path": "/blogs/2022/autumn/gamekeyboardOnAndroid12/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -552,178 +531,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "屏蔽斗鱼直播间的重复弹幕",
-    "headers": [
-      {
-        "level": 2,
-        "title": "目标",
-        "slug": "目标",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "分析",
-        "slug": "分析",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "实现",
-        "slug": "实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "效果",
-        "slug": "效果",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "改进",
-        "slug": "改进",
-        "children": []
-      }
-    ],
-    "path": "/blogs/2022/summer/blockdanmu/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "将植物大战僵尸安卓版游戏存档路径改到外部存储下（以谷歌free版为例）",
-    "headers": [
-      {
-        "level": 2,
-        "title": "目标",
-        "slug": "目标",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "需要了解",
-        "slug": "需要了解",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "思考",
-        "slug": "思考",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "实现",
-        "slug": "实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "效果",
-        "slug": "效果",
-        "children": []
-      }
-    ],
-    "path": "/blogs/2022/summer/changeuserdataLocation/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "解决原理",
-        "slug": "解决原理",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "解决实操",
-        "slug": "解决实操",
-        "children": []
-      }
-    ],
-    "path": "/blogs/2022/summer/exagearInitContainer/detailed.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "解决exagear内置容器，必须点开一次环境设置才能启动环境的问题",
-    "headers": [
-      {
-        "level": 2,
-        "title": "问题描述",
-        "slug": "问题描述",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "出现原因",
-        "slug": "出现原因",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "解决原理",
-        "slug": "解决原理",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "解决实操",
-        "slug": "解决实操",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "总结",
-        "slug": "总结",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "更新历史",
-        "slug": "更新历史",
-        "children": []
-      }
-    ],
-    "path": "/blogs/exagearInitContainer/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "将Exagear直装版数据包放到apk的assets中以减小体积安装后的占用空间",
-    "headers": [
-      {
-        "level": 2,
-        "title": "问题描述",
-        "slug": "问题描述",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "解决过程",
-        "slug": "解决过程",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "解决方案",
-        "slug": "解决方案",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "总结",
-        "slug": "总结",
-        "children": []
-      }
-    ],
-    "path": "/blogs/2022/summer/exagearObbInApk/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -845,77 +652,7 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/tags/dex/1/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/tags/obb/1/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/tags/SharePreference/1/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/tags/youhou/1/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/tags/JavaScript/1/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/tags/danmu/1/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
     "path": "/tags/css/1/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/tags/pvz/1/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/tags/java/1/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/tags/smali/1/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/tags/youxicundang/1/",
     "pathLocale": "/",
     "extraFields": []
   },
