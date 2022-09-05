@@ -1,7 +1,10 @@
-diff --git a/node_modules/vuepress-theme-reco/lib/node/recoTheme.js b/node_modules/vuepress-theme-reco/lib/node/recoTheme.js
+diff --git a/node_modules/vuepress-theme-reco/lib/node/recoTheme.js b/node_modules/vuepress-theme-reco/lib/node/recoTheme.mjs
+similarity index 75%
+rename from node_modules/vuepress-theme-reco/lib/node/recoTheme.js
+rename to node_modules/vuepress-theme-reco/lib/node/recoTheme.mjs
 index 12bb1a3..3e00112 100644
 --- a/node_modules/vuepress-theme-reco/lib/node/recoTheme.js
-+++ b/node_modules/vuepress-theme-reco/lib/node/recoTheme.js
++++ b/node_modules/vuepress-theme-reco/lib/node/recoTheme.mjs
 @@ -1,28 +1,28 @@
  "use strict";
  Object.defineProperty(exports, "__esModule", { value: true });
