@@ -1,9 +1,10 @@
 diff --git a/node_modules/vuepress-theme-reco/lib/node/recoTheme.js b/node_modules/vuepress-theme-reco/lib/node/recoTheme.js
-index 12bb1a3..bbef278 100644
+index 12bb1a3..e10f90f 100644
 --- a/node_modules/vuepress-theme-reco/lib/node/recoTheme.js
 +++ b/node_modules/vuepress-theme-reco/lib/node/recoTheme.js
 @@ -1,28 +1,28 @@
- "use strict";
+-"use strict";
++// "use strict";
  Object.defineProperty(exports, "__esModule", { value: true });
  exports.recoTheme = void 0;
 -const plugin_active_header_links_1 = require("@vuepress/plugin-active-header-links");
@@ -28,28 +29,28 @@ index 12bb1a3..bbef278 100644
 -const bundler_webpack_1 = require("@vuepress/bundler-webpack");
 -const resolveContainer_1 = require("./resolveContainer");
 -const pages_1 = require("./pages");
-+import { plugin_active_header_links_1 } from "@vuepress/plugin-active-header-links"
-+import { plugin_back_to_top_1 } from "@vuepress/plugin-back-to-top";
-+import { vuepress_plugin_bulletin_popover_1 } from "@vuepress-reco/vuepress-plugin-bulletin-popover";
-+import { vuepress_plugin_code_copy_1 } from "@vuepress-reco/vuepress-plugin-code-copy";
-+import { vuepress_plugin_comments_1 } from "@vuepress-reco/vuepress-plugin-comments";
-+import { plugin_container_1 } from "@vuepress/plugin-container";
-+import { plugin_external_link_icon_1 } from "@vuepress/plugin-external-link-icon";
-+import { plugin_git_1 } from "@vuepress/plugin-git";
-+import { plugin_nprogress_1 } from "@vuepress/plugin-nprogress";
-+import { vuepress_plugin_page_1 } from "@vuepress-reco/vuepress-plugin-page";
-+import { plugin_palette_1 } from "@vuepress/plugin-palette";
-+import { utils_1 } from "@vuepress/utils"
-+import { plugin_prismjs_1 } from "@vuepress/plugin-prismjs"
-+import { plugin_register_components_1 } from "@vuepress/plugin-register-components";
-+import { plugin_search_1 } from "@vuepress/plugin-search";
-+import { tailwindcss_config_1 } from "@vuepress-reco/tailwindcss-config";
-+import { plugin_theme_data_1 } from "@vuepress/plugin-theme-data";
-+import { bundler_vite_1 } from "@vuepress/bundler-vite";
-+import { vuepress_plugin_vue_preview_1 } from "@vuepress-reco/vuepress-plugin-vue-preview";
-+import { bundler_webpack_1 } from "@vuepress/bundler-webpack";
-+import { resolveContainer_1 } from "./resolveContainer";
-+import { pages_1 } from "./pages";
++const plugin_active_header_links_1 = require( "@vuepress/plugin-active-header-links")
++const plugin_back_to_top_1 = require( "@vuepress/plugin-back-to-top");
++const vuepress_plugin_bulletin_popover_1 = require( "@vuepress-reco/vuepress-plugin-bulletin-popover");
++const vuepress_plugin_code_copy_1 = require( "@vuepress-reco/vuepress-plugin-code-copy");
++const vuepress_plugin_comments_1 = require( "@vuepress-reco/vuepress-plugin-comments");
++const plugin_container_1 = require( "@vuepress/plugin-container");
++const plugin_external_link_icon_1 = require( "@vuepress/plugin-external-link-icon");
++const plugin_git_1 = require( "@vuepress/plugin-git");
++const plugin_nprogress_1 = require( "@vuepress/plugin-nprogress");
++const vuepress_plugin_page_1 = require( "@vuepress-reco/vuepress-plugin-page");
++const plugin_palette_1 = require( "@vuepress/plugin-palette");
++const utils_1 = require( "@vuepress/utils")
++const plugin_prismjs_1 = require( "@vuepress/plugin-prismjs");
++const plugin_register_components_1 = require( "@vuepress/plugin-register-components");
++const plugin_search_1 = require( "@vuepress/plugin-search");
++const tailwindcss_config_1 = require( "@vuepress-reco/tailwindcss-config");
++const plugin_theme_data_1 = require( "@vuepress/plugin-theme-data");
++const bundler_vite_1 = require( "@vuepress/bundler-vite");
++const vuepress_plugin_vue_preview_1 = require( "@vuepress-reco/vuepress-plugin-vue-preview");
++const bundler_webpack_1 = require( "@vuepress/bundler-webpack");
++const resolveContainer_1 = require( "./resolveContainer");
++const pages_1 = require( "./pages");
  const recoTheme = (themeConfig) => {
      return {
          name: 'vuepress-theme-reco',
