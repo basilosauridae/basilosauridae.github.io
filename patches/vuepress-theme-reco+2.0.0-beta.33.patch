@@ -1,10 +1,9 @@
 diff --git a/node_modules/vuepress-theme-reco/lib/node/recoTheme.js b/node_modules/vuepress-theme-reco/lib/node/recoTheme.js
-index 12bb1a3..e10f90f 100644
+index 12bb1a3..3e00112 100644
 --- a/node_modules/vuepress-theme-reco/lib/node/recoTheme.js
 +++ b/node_modules/vuepress-theme-reco/lib/node/recoTheme.js
 @@ -1,28 +1,28 @@
--"use strict";
-+// "use strict";
+ "use strict";
  Object.defineProperty(exports, "__esModule", { value: true });
  exports.recoTheme = void 0;
 -const plugin_active_header_links_1 = require("@vuepress/plugin-active-header-links");
