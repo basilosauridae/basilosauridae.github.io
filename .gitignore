@@ -1,3 +1,8 @@
-.vuepress/.cache
-.vuepress/.temp
+.temp
+.cache
+/docs/nonBlog/marioKartTour
+/docs/.vuepress/public/mkt
 node_modules
+/docs/.vuepress/dist
+/docs/.vuepress/.temp
+/docs/.vuepress/.cache
