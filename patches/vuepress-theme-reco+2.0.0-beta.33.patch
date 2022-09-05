@@ -1,5 +1,5 @@
 diff --git a/node_modules/vuepress-theme-reco/lib/node/recoTheme.js b/node_modules/vuepress-theme-reco/lib/node/recoTheme.js
-index 12bb1a3..1b06dbd 100644
+index 12bb1a3..bbef278 100644
 --- a/node_modules/vuepress-theme-reco/lib/node/recoTheme.js
 +++ b/node_modules/vuepress-theme-reco/lib/node/recoTheme.js
 @@ -1,28 +1,28 @@
@@ -28,54 +28,37 @@ index 12bb1a3..1b06dbd 100644
 -const bundler_webpack_1 = require("@vuepress/bundler-webpack");
 -const resolveContainer_1 = require("./resolveContainer");
 -const pages_1 = require("./pages");
-+import plugin_active_header_links_1 from "@vuepress/plugin-active-header-links"
-+import plugin_back_to_top_1 from "@vuepress/plugin-back-to-top";
-+import vuepress_plugin_bulletin_popover_1 from "@vuepress-reco/vuepress-plugin-bulletin-popover";
-+import vuepress_plugin_code_copy_1 from "@vuepress-reco/vuepress-plugin-code-copy";
-+import vuepress_plugin_comments_1 from "@vuepress-reco/vuepress-plugin-comments";
-+import plugin_container_1 from "@vuepress/plugin-container";
-+import plugin_external_link_icon_1 from "@vuepress/plugin-external-link-icon";
-+import plugin_git_1 from "@vuepress/plugin-git";
-+import plugin_nprogress_1 from "@vuepress/plugin-nprogress";
-+import vuepress_plugin_page_1 from "@vuepress-reco/vuepress-plugin-page";
-+import plugin_palette_1 from "@vuepress/plugin-palette";
-+import utils_1 from "@vuepress/utils"
-+import plugin_prismjs_1 from "@vuepress/plugin-prismjs"
-+import plugin_register_components_1 from "@vuepress/plugin-register-components";
-+import plugin_search_1 from "@vuepress/plugin-search";
-+import tailwindcss_config_1 from "@vuepress-reco/tailwindcss-config";
-+import plugin_theme_data_1 from "@vuepress/plugin-theme-data";
-+import bundler_vite_1 from "@vuepress/bundler-vite";
-+import vuepress_plugin_vue_preview_1 from "@vuepress-reco/vuepress-plugin-vue-preview";
-+import bundler_webpack_1 from "@vuepress/bundler-webpack";
-+import resolveContainer_1 from "./resolveContainer";
-+import pages_1 from "./pages";
++import { plugin_active_header_links_1 } from "@vuepress/plugin-active-header-links"
++import { plugin_back_to_top_1 } from "@vuepress/plugin-back-to-top";
++import { vuepress_plugin_bulletin_popover_1 } from "@vuepress-reco/vuepress-plugin-bulletin-popover";
++import { vuepress_plugin_code_copy_1 } from "@vuepress-reco/vuepress-plugin-code-copy";
++import { vuepress_plugin_comments_1 } from "@vuepress-reco/vuepress-plugin-comments";
++import { plugin_container_1 } from "@vuepress/plugin-container";
++import { plugin_external_link_icon_1 } from "@vuepress/plugin-external-link-icon";
++import { plugin_git_1 } from "@vuepress/plugin-git";
++import { plugin_nprogress_1 } from "@vuepress/plugin-nprogress";
++import { vuepress_plugin_page_1 } from "@vuepress-reco/vuepress-plugin-page";
++import { plugin_palette_1 } from "@vuepress/plugin-palette";
++import { utils_1 } from "@vuepress/utils"
++import { plugin_prismjs_1 } from "@vuepress/plugin-prismjs"
++import { plugin_register_components_1 } from "@vuepress/plugin-register-components";
++import { plugin_search_1 } from "@vuepress/plugin-search";
++import { tailwindcss_config_1 } from "@vuepress-reco/tailwindcss-config";
++import { plugin_theme_data_1 } from "@vuepress/plugin-theme-data";
++import { bundler_vite_1 } from "@vuepress/bundler-vite";
++import { vuepress_plugin_vue_preview_1 } from "@vuepress-reco/vuepress-plugin-vue-preview";
++import { bundler_webpack_1 } from "@vuepress/bundler-webpack";
++import { resolveContainer_1 } from "./resolveContainer";
++import { pages_1 } from "./pages";
  const recoTheme = (themeConfig) => {
      return {
          name: 'vuepress-theme-reco',
-@@ -38,11 +38,11 @@ const recoTheme = (themeConfig) => {
+@@ -38,7 +38,7 @@ const recoTheme = (themeConfig) => {
                          css: {
                              postcss: {
                                  plugins: [
 -                                    require('postcss-import'),
--                                    require('tailwindcss/nesting'),
--                                    require('tailwindcss')(tailwindcss_config_1.tailwindcssConfig),
--                                    require('autoprefixer')({}),
--                                    require('postcss-each')
-+                                    import('postcss-import'),
-+                                    import('tailwindcss/nesting'),
-+                                    import('tailwindcss')(tailwindcss_config_1.tailwindcssConfig),
-+                                    import('autoprefixer')({}),
-+                                    import('postcss-each')
-                                 ]
-                             }
-                         },
-@@ -60,7 +60,7 @@ const recoTheme = (themeConfig) => {
-                             plugins: [
-                                 ['tailwindcss', tailwindcss_config_1.tailwindcssConfig],
-                                 ['autoprefixer', {}],
--                                [require('tailwindcss/nesting')],
-+                                [import('tailwindcss/nesting')],
-                                 ['postcss-each']
-                             ]
-                         },
++                                    require('postcss-require'),
+                                     require('tailwindcss/nesting'),
+                                     require('tailwindcss')(tailwindcss_config_1.tailwindcssConfig),
+                                     require('autoprefixer')({}),
