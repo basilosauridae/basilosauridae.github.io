@@ -6,9 +6,9 @@
   "author": "reco_luan <recoluan@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "vuepress dev .",
-    "start": "vuepress dev .",
-    "build": "vuepress build ."
+    "dev": "vuepress dev project",
+    "start": "vuepress dev project",
+    "build": "vuepress build project"
   },
   "dependencies": {
     "vuepress": "2.0.0-beta.48",
