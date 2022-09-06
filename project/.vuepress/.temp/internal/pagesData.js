@@ -11,14 +11,14 @@ export const pagesData = {
   "v-456cc6d6": () => import(/* webpackChunkName: "v-456cc6d6" */"D:/workSpace/Basilosauridae.github.io/project/.vuepress/.temp/pages/docs/theme-reco/plugin.html.js").then(({ data }) => data),
   // path: /docs/theme-reco/theme.html
   "v-65959fc1": () => import(/* webpackChunkName: "v-65959fc1" */"D:/workSpace/Basilosauridae.github.io/project/.vuepress/.temp/pages/docs/theme-reco/theme.html.js").then(({ data }) => data),
-  // path: /blogs/category2/2017/092101.html
-  "v-16458837": () => import(/* webpackChunkName: "v-16458837" */"D:/workSpace/Basilosauridae.github.io/project/.vuepress/.temp/pages/blogs/category2/2017/092101.html.js").then(({ data }) => data),
-  // path: /blogs/category2/2016/121501.html
-  "v-19e56119": () => import(/* webpackChunkName: "v-19e56119" */"D:/workSpace/Basilosauridae.github.io/project/.vuepress/.temp/pages/blogs/category2/2016/121501.html.js").then(({ data }) => data),
   // path: /blogs/category1/2018/121501.html
   "v-32598bfc": () => import(/* webpackChunkName: "v-32598bfc" */"D:/workSpace/Basilosauridae.github.io/project/.vuepress/.temp/pages/blogs/category1/2018/121501.html.js").then(({ data }) => data),
   // path: /blogs/category1/2019/092101.html
   "v-2eb9b31a": () => import(/* webpackChunkName: "v-2eb9b31a" */"D:/workSpace/Basilosauridae.github.io/project/.vuepress/.temp/pages/blogs/category1/2019/092101.html.js").then(({ data }) => data),
+  // path: /blogs/category2/2016/121501.html
+  "v-19e56119": () => import(/* webpackChunkName: "v-19e56119" */"D:/workSpace/Basilosauridae.github.io/project/.vuepress/.temp/pages/blogs/category2/2016/121501.html.js").then(({ data }) => data),
+  // path: /blogs/category2/2017/092101.html
+  "v-16458837": () => import(/* webpackChunkName: "v-16458837" */"D:/workSpace/Basilosauridae.github.io/project/.vuepress/.temp/pages/blogs/category2/2017/092101.html.js").then(({ data }) => data),
   // path: /docs/blogs/other/guide.html
   "v-152a14b5": () => import(/* webpackChunkName: "v-152a14b5" */"D:/workSpace/Basilosauridae.github.io/project/.vuepress/.temp/pages/docs/blogs/other/guide.html.js").then(({ data }) => data),
   // path: /docs/blogs/category1/2018/121501.html
