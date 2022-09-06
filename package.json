@@ -8,12 +8,13 @@
   "scripts": {
     "dev": "vuepress dev .",
     "start": "vuepress dev .",
-    "build": "vuepress build .",
-    "postinstall": "patch-package"
+    "build": "vuepress build ."
   },
   "dependencies": {
-    "patch-package": "^6.4.7",
     "vuepress": "2.0.0-beta.48",
     "vuepress-theme-reco": "2.0.0-beta.33"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.15"
   }
 }
