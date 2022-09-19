@@ -1,6 +1,7 @@
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
 import recoTheme from 'vuepress-theme-reco'
+import { plugins } from './config/index'
 
 export default defineUserConfig({
   title: '影大宝',
@@ -54,16 +55,7 @@ export default defineUserConfig({
         ]
       }
     ],
-    // valineConfig 配置与 1.x 一致
-    valineConfig: {
-      appId: 'xxx',
-      appKey: 'xxx',
-      placeholder: '填写邮箱可以收到回复提醒哦！',
-      verify: true, // 验证码服务
-      // notify: true,
-      recordIP: true,
-      // hideComments: true // 隐藏评论
-    }
+    plugins:plugins
   }),
   // debug: true,
 })
