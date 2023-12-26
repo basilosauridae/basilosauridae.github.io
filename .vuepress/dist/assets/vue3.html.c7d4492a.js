@@ -1,1 +1,0 @@
-import{_ as e,o as t,c,a as o}from"./app.bf57dfe0.js";const _={},n=o("p",null,"second page in Vue",-1),s=[n];function a(r,l){return t(),c("div",null,s)}var d=e(_,[["render",a],["__file","vue3.html.vue"]]);export{d as default};
