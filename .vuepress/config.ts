@@ -30,8 +30,8 @@ export default defineUserConfig({
       ],
       '/docs/vue/':[
         {
-          text:'关于vue',
-          children:['theCore','vue3']
+          text:'Vue',
+          children:['vue2application','vue2principle','vue3']
         }
       ]
     },
