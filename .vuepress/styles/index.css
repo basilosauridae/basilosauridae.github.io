@@ -6,15 +6,7 @@ body{
 @property --rotate {
   syntax: "<angle>";
   initial-value: 132deg;
-  inherits: false;
-}
-@keyframes spin {
-  0% {
-    --rotate: 0deg;
-  }
-  100% {
-    --rotate: 360deg;
-  }
+  inherits: true;
 }
 
 /* 首页背景色,避免切换日夜模式时卡片突兀 */
@@ -71,6 +63,14 @@ body{
   .post-item-container:hover:before, .post-item-container:hover:after {
     animation: none;
     opacity: 0;
+  }
+  @keyframes spin {
+    0% {
+      --rotate: 0deg;
+    }
+    100% {
+      --rotate: 360deg;
+    }
   }
   .post-item-container::before {
     content: "";
