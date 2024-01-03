@@ -2,6 +2,21 @@ body{
   font-weight: 600;
 }
 
+/* 公共动画 */
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+@keyframes spin {
+  0% {
+    --rotate: 0deg;
+  }
+  100% {
+    --rotate: 360deg;
+  }
+}
+
 /* 首页背景色,避免切换日夜模式时卡片突兀 */
 .home-wrapper{
   background: #22272e;
@@ -77,7 +92,6 @@ body{
     left: 0;
     right: 0;
     z-index: -1;
-    /* height: 100%; */
     width: 100%;
     margin: 0 auto;
     transform: scale(0.8);
@@ -87,19 +101,5 @@ body{
       opacity: 1;
     transition: opacity .9s;
     animation: spin 2.5s linear infinite;
-  }
-}
-/* 公共动画 */
-@property --rotate {
-  syntax: "<angle>";
-  initial-value: 132deg;
-  inherits: false;
-}
-@keyframes spin {
-  0% {
-    --rotate: 0deg;
-  }
-  100% {
-    --rotate: 360deg;
   }
 }
