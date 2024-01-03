@@ -1,7 +1,9 @@
 ---
 title: 日志书写规范
-date: 2022/06/07
+date: 2024/06/07
 ---
+
+## 卡片
 
 ::: tip
 这是一个提示
@@ -23,7 +25,7 @@ date: 2022/06/07
 这是一个 details 标签
 :::
 
-<!-- 代码组的写法 -->
+## 代码组
 
 :::: code-group
 ::: code-group-item FOO
@@ -44,7 +46,7 @@ const bar = 'bar';
 :::
 ::::
 
-<!-- 单行代码写法 -->
+## 单行代码
 
 ```bash
 //这是一个命令行
@@ -52,4 +54,16 @@ npm run dev
 npm run build
 ```
 
-[链接语法](https://www.bilibili.com/video/BV1As411R7e3?from=search&seid=8836255303393949866)
+## 链接
+
+[link](https://www.bilibili.com/video/BV1As411R7e3?from=search&seid=8836255303393949866)
+
+## 图标
+
+vuepress-theme-reco@2.x 是通过 Xicons 来配置图标的，Xicons 只集成了 [carbon](https://carbondesignsystem.com/guidelines/icons/library/) 一种图标，几乎可以满足绝大部分场景。
+
+如果想要在 markdown 中输出一个星星图标 ，你就可以在 markdown 中这样比编辑代码：
+
+```vue
+<xicons icon="Star" />
+```

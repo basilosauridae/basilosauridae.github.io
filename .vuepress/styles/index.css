@@ -1,0 +1,105 @@
+body{
+  font-weight: 600;
+}
+
+/* 首页背景色,避免切换日夜模式时卡片突兀 */
+.home-wrapper{
+  background: #22272e;
+  position: absolute;
+  z-index: -99;
+}
+
+/* 首页标题 */
+.home-wrapper .banner-brand-wrapper .hero-content .hero-text{
+	background: repeating-conic-gradient(#5D67E8 10deg,#ef4444 20deg,#fff 55deg); 
+	-webkit-background-clip: text; 
+	background-clip: text; 
+	color: transparent; 
+}
+
+/* 主页右侧卡片 */
+.home-blog-content .info-wrapper{
+  background: #191c29;
+  div,h4,a, .category-link{
+    color: #fff;
+  }
+  .tag-wrapper .tag-item{
+    width: 100%;
+    padding: 0.5rem;
+  }
+}
+.dark .home-blog-content .info-wrapper{
+  background: #191c29;
+}
+
+/* 主页左侧卡片 */
+.home-blog-content .blog-list .post-list-container{
+  display: flex;
+  justify-content:flex-start;
+  flex-wrap:wrap;
+  .post-item-container{
+    a{
+      color: #fff;
+    }
+    background: #191c29;
+    cursor: pointer;
+    position: relative;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .post-item-container:hover {
+    a{
+      color: rgb(88 199 250 / 100%);
+    }
+    transition: color 1s;
+  }
+  .post-item-container:hover:before, .post-item-container:hover:after {
+    animation: none;
+    opacity: 0;
+  }
+  .post-item-container::before {
+    content: "";
+    width: 105%;
+    height: 110%;
+    border-radius: 8px;
+    background-image: linear-gradient(
+      var(--rotate)
+      , #5ddcff, #3c67e3 43%, #4e00c2);
+      position: absolute;
+      z-index: -1;
+      top: -1%;
+      left: -2%;
+      animation: spin 2.5s linear infinite;
+  }
+  .post-item-container::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    z-index: -1;
+    /* height: 100%; */
+    width: 100%;
+    margin: 0 auto;
+    transform: scale(0.8);
+    background-image: linear-gradient(
+      var(--rotate)
+      , #5ddcff, #3c67e3 43%, #4e00c2);
+      opacity: 1;
+    transition: opacity .9s;
+    animation: spin 2.5s linear infinite;
+  }
+}
+/* 公共动画 */
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+@keyframes spin {
+  0% {
+    --rotate: 0deg;
+  }
+  100% {
+    --rotate: 360deg;
+  }
+}

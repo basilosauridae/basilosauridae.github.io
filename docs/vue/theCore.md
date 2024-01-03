@@ -3,8 +3,6 @@ title: 详解vue组件三大核心概念
 date: 2022/06/07
 tags:
   - vue
-categories:
-  - Vue
 ---
 
 ## 前言

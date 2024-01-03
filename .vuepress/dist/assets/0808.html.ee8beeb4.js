@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-7404a7ea","path":"/blogs/category1/2022/0808.html","title":"Nuxt","lang":"en-US","frontmatter":{"title":"Nuxt","date":"2022-08-08T00:00:00.000Z","tags":["Node"]},"excerpt":"","headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"blogs/category1/2022/0808.md"}');export{t as data};

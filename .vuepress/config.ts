@@ -1,5 +1,4 @@
 import { defineUserConfig } from 'vuepress'
-import type { DefaultThemeOptions } from 'vuepress'
 import recoTheme from 'vuepress-theme-reco'
 import { plugins } from './config/index'
 
@@ -8,23 +7,24 @@ export default defineUserConfig({
   description: 'Just playing around',
   theme: recoTheme({
     style: '@vuepress-reco/style-default',
+    colorMode: 'dark', // dark, light
     logo: '/logo.png',
     author: '影大宝',
     docsRepo: 'https://github.com/vuepress-reco/vuepress-theme-reco-next',
     docsBranch: 'main',
     docsDir: 'example',
+    autoSetSeries: true,
     lastUpdatedText: '',
-    // series 为原 sidebar
     series: {
       '/docs/theme/': [
         {
-          text: 'CSS样式',
+          text: 'CSS',
           children: ['reset', 'shadow','whirligig']
         },
       ],
       '/docs/guide/': [
         {
-          text:'影大宝日志',
+          text:'Memories',
           children:['introduce','mycat','standard']
         }
       ],
@@ -40,9 +40,9 @@ export default defineUserConfig({
       { text: 'Home', link: '/'},
       { text: 'Docs',
       children: [
-        { text: '影大宝日志', link: '/docs/guide/introduce' },
-        { text: 'vue', link: '/docs/vue/theCore' },
-        { text: 'css', link: '/docs/theme/reset' }
+        { text: 'Memories', link: '/docs/guide/introduce' },
+        { text: 'Vue', link: '/docs/vue/theCore' },
+        { text: 'Css', link: '/docs/theme/reset' }
       ]
       },
       { text: 'Tags', link: '/tags/vue/1' },
@@ -57,5 +57,4 @@ export default defineUserConfig({
     ],
     plugins:plugins
   }),
-  // debug: true,
 })
