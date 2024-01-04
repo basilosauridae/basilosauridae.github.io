@@ -19,7 +19,7 @@ export default defineUserConfig({
       '/docs/theme/': [
         {
           text: 'CSS',
-          children: ['reset', 'shadow','whirligig']
+          children: ['magic','colorful','reset', 'shadow','whirligig']
         },
       ],
       '/docs/guide/': [
@@ -42,11 +42,11 @@ export default defineUserConfig({
       children: [
         { text: 'Memories', link: '/docs/guide/introduce' },
         { text: 'Vue', link: '/docs/vue/theCore' },
-        { text: 'Css', link: '/docs/theme/reset' }
+        { text: 'JS', link: '/tags/JS/1' },
+        { text: 'Css', link: '/docs/theme/magic' },
       ]
       },
       { text: 'Tags', link: '/tags/vue/1' },
-      { text: 'Timeline', link: '/tineline' },
       {
         text: 'Contact Me',
         children: [
