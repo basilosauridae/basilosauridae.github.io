@@ -26,9 +26,13 @@ body{
 
 /* 主页右侧卡片 */
 .home-blog-content .info-wrapper{
+  border: transparent;
   background: #191c29;
-  div,h4,a, .category-link{
+  div,h4,a{
     color: #fff;
+  }
+  hr{
+    display: none;
   }
   .tag-wrapper .tag-item{
     width: 100%;
@@ -53,6 +57,7 @@ body{
     position: relative;
     border-radius: 6px;
     cursor: pointer;
+    border: transparent;
   }
   .post-item-container:hover {
     a{
@@ -101,5 +106,13 @@ body{
       opacity: 1;
     transition: opacity .9s;
     animation: spin 2.5s linear infinite;
+  }
+}
+
+/* 首页底部 */
+.home-wrapper .footer-wrapper{
+  border-color:rgb(62 76 90 / var(--tw-border-opacity));
+  a{
+    color: #fff;
   }
 }

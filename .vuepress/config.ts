@@ -7,7 +7,7 @@ export default defineUserConfig({
   description: 'Just playing around',
   theme: recoTheme({
     style: '@vuepress-reco/style-default',
-    colorMode: 'dark', // dark, light
+    colorMode: 'light', // dark, light
     logo: '/logo.png',
     author: '影大宝',
     docsRepo: 'https://github.com/vuepress-reco/vuepress-theme-reco-next',
@@ -46,6 +46,7 @@ export default defineUserConfig({
       ]
       },
       { text: 'Tags', link: '/tags/vue/1' },
+      { text: 'Timeline', link: '/tineline' },
       {
         text: 'Contact Me',
         children: [
