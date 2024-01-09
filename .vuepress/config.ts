@@ -41,7 +41,7 @@ export default defineUserConfig({
       { text: 'Docs',
       children: [
         { text: 'Memories', link: '/docs/guide/introduce' },
-        { text: 'Vue', link: '/docs/vue/theCore' },
+        { text: 'Vue', link: '/docs/vue/vue2application' },
         { text: 'JS', link: '/tags/JS/1' },
         { text: 'Css', link: '/docs/theme/magic' },
       ]

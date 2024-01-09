@@ -1,6 +1,9 @@
 body{
   font-weight: 600;
 }
+img{
+  border-radius: 0.2rem;
+}
 
 /* 公共动画 */
 @property --rotate {

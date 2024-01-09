@@ -32,7 +32,7 @@ date: 2022/05/24
 
 ### vue2.0+elementUI+webpack 刷脸测温签到大屏
 
-<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/pic1.png"/>
+<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/project/014.png"/>
 
 本项目是针对疫情期间，刷脸识别访客体温是否异常展示的数据大屏需求。
 
@@ -42,21 +42,21 @@ date: 2022/05/24
 
 ### 安卓平板
 
-<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/pic4.png"/>
+<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/project/016.png"/>
 
 安卓平板是一个 app 项目，新奇的点在于我的工作都是 web 开发，app 对我来说是一个挑战。
 此项目使用的更适用于 uni-app 的 HbuilderX，再使用 Android Studio 编辑打包 app 外壳，用数据线连接手机就可以安装 app 了。
 
 ### web 网站
 
-<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/pic3.png"/>
+<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/project/015.png"/>
 
 此项目是采用 wordpress 前后端一体的方法，当时有和产品讨论用 vuepress 技术，但由于面向海外市场，后期方便功能性维护，插件更丰富的 wordpress 更合适。
 前端开发使用的是原生三剑客——html+css+javascript。
 
 ### cocoscreator2D+Typescript 小游戏
 
-<img src="https://img-blog.csdnimg.cn/2129d01e5d174897a1efcef5ca773aa5.gif"/>
+<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/project/017.gif"/>
 
 工作之外的小探索，自我学习做了一个网页小游戏，不过是 cocos creator 2D 版本的，因为种种原因 3D 一直没有捡起来。
 对于前端来说，我觉得更多的是锻炼代码的逻辑能力和对文档的理解能力。很多都是方法论，把死板的方法放入生动的游戏动作中，挺重要；
