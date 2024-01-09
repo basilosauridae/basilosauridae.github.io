@@ -1,22 +1,25 @@
 ---
 title: 我的前端之路
-date: 2022/05/24
+date: 2024/01/09
 ---
 
-::: tip 关于我
+## 关于我
 
-1. 我的专业是 HRM，但本人志不在此 😜;<br>
-2. 大学时期做过美工兼职，熟练使用 Adobe 家族桶,愿望是成为 UI/UX;<br>
-3. 毕业后觉得把自己写的代码变成可以看得见的视觉冲击会更酷，毅然选择前端开发;<br>
-4. 最大的优势就是永远保持好奇，自我探索力 MAX;<br>
+1. 理论性格是具有开拓与创索精神的 [INTJ](https://www.16personalities.com/ch/intj-%E4%BA%BA%E6%A0%BC)，最大的优势就是永远保持好奇，自我探索力 MAX；
+2. 专业HRM,大学时期做过美工兼职，熟练使用 Adobe 家族桶,愿望是成为 UI/UX;
+3. 毕业后觉得把自己写的代码变成可以看得见的视觉冲击会更酷，毅然选择前端开发;
+4. 有`电商`、`AIoT`、`离散制造行业`前端开发经验，主要技术栈`Vue`，目前正在学习`React`;
 5. 未来希望自己保持初心，璀璨美丽，所向无敌！🎉🎊✨
-   :::
 
 ## Some of my projects
 
 `以下项目均为部分页面展示`
 
-### vue3.0+TypeScript+Vite 边缘计算盒
+### 微信原生小程序 
+
+
+
+### vue3.0+TypeScript+Vite 边缘计算盒(AIoT)
 
 <img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/project/001.png"/>
 
@@ -61,3 +64,10 @@ date: 2022/05/24
 工作之外的小探索，自我学习做了一个网页小游戏，不过是 cocos creator 2D 版本的，因为种种原因 3D 一直没有捡起来。
 对于前端来说，我觉得更多的是锻炼代码的逻辑能力和对文档的理解能力。很多都是方法论，把死板的方法放入生动的游戏动作中，挺重要；
 详细开发流程可参考[我的 Github 仓库](https://github.com/basilosauridae/canvas-cocos)，持续更新中...
+
+## 联系方式
+
+- 邮箱：lumang7520@126.com
+- [Github](https://github.com/Basilosauridae)
+- [Steam](https://steamcommunity.com/profiles/76561199024540854/) (欢迎找我玩~)
+- [掘金](https://juejin.cn/user/2489763823616141)
