@@ -64,7 +64,7 @@ npm run build
 
 vuepress-theme-reco@2.x 是通过 Xicons 来配置图标的，Xicons 只集成了 [carbon](https://carbondesignsystem.com/guidelines/icons/library/) 一种图标，几乎可以满足绝大部分场景。
 
-如果想要在 markdown 中输出一个星星图标 ，你就可以在 markdown 中这样比编辑代码：
+如果想要在 markdown 中输出一个星星图标 <xicons icon="Star" />，你就可以在 markdown 中这样比编辑代码：
 
 ```vue
 <xicons icon="Star" />

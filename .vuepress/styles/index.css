@@ -31,6 +31,11 @@ body{
   div,h4,a{
     color: #fff;
   }
+  .category-wrapper .category-item .category-link{
+    .text,.num{
+      color: #fff;
+    }
+  }
   hr{
     display: none;
   }

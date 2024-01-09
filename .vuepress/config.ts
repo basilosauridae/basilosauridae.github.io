@@ -25,13 +25,13 @@ export default defineUserConfig({
       '/docs/guide/': [
         {
           text:'Memories',
-          children:['introduce','mycat','standard']
+          children:['introduce','mycat','standard','interview']
         }
       ],
       '/docs/vue/':[
         {
           text:'Vue',
-          children:['vue2application','vue2principle','vue3']
+          children:['vue2application','vue2principle','theCore']
         }
       ]
     },
@@ -50,9 +50,10 @@ export default defineUserConfig({
       {
         text: 'Contact Me',
         children: [
-          { text: '语雀', link: 'https://www.yuque.com/lumang-40tj6' },
-          { text: 'github', link: 'https://github.com/Basilosauridae' },
-          { text:'wordpress',link:'https://www.cozo.com/' }
+          { text:'语雀',link:'https://www.yuque.com/lumang-40tj6' },
+          { text:'知乎',link:'https://www.zhihu.com/people/ying-zi-74-41' },
+          { text:'github',link:'https://github.com/Basilosauridae' },
+          { text:'邮箱lumang7520@126.com',link:'https://mail.126.com/' }
         ]
       }
     ],

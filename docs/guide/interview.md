@@ -6,8 +6,6 @@ categories:
   - 总结
 ---
 
-second page in Vue
-
 页面的稳定性
 
 跨端的能力 

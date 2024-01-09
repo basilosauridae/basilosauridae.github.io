@@ -60,7 +60,7 @@
   }
 }
 span{
-  background: repeating-conic-gradient(#5D67E8 10deg,#ef4444 20deg,#fff 55deg); 
+  background: repeating-conic-gradient(#5D67E8 30deg,#ef4444 48deg,#fff 55deg); 
 	-webkit-background-clip: text; 
 	background-clip: text; 
 	color: transparent; 
@@ -70,7 +70,7 @@ span{
 <template>
 	<div class="bg">
     <div class="rainbow">
-      <span>彩色文字</span>
+      <span>Colorful Text</span>
     </div>
   </div>
 </template>
