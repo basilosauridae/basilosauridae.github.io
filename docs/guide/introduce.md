@@ -6,18 +6,51 @@ date: 2024/01/09
 ## 关于我
 
 1. 理论性格是具有开拓与创索精神的 [INTJ](https://www.16personalities.com/ch/intj-%E4%BA%BA%E6%A0%BC)，最大的优势就是永远保持好奇，自我探索力 MAX；
-2. 专业HRM,大学时期做过美工兼职，熟练使用 Adobe 家族桶,愿望是成为 UI/UX;
+2. 大学时期做过美工兼职，熟练使用 Adobe 家族桶,愿望是成为 UI/UX;
 3. 毕业后觉得把自己写的代码变成可以看得见的视觉冲击会更酷，毅然选择前端开发;
 4. 有`电商`、`AIoT`、`离散制造行业`前端开发经验，主要技术栈`Vue`，目前正在学习`React`;
 5. 未来希望自己保持初心，璀璨美丽，所向无敌！🎉🎊✨
 
-## Some of my projects
+>以下为部分项目展示
 
-`以下项目均为部分页面展示`
+## 2022 ~ 2023 小箱单智造·Min Work
 
-### 微信原生小程序 
+<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/project/006.png"/>
 
+### 项目业务背景
 
+小箱单是针对中小制造业,以`管控仓库物流`、`车间管理透明化`、`规范业务流程`为目标，打造以现场驱动、聚焦场内物流的全链路执行系统。
+
+<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/project/003.jpg"/>
+
+包括两端控制，管理人员通过web端管理`人、物、箱、路线`，通过权限控制，定制作业路线，展示可视化报表；操作人员通过`小程序/PDA`实现`物料装箱/搬运/报工等`。
+
+<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/project/009.jpg"/>
+
+### 技术栈选型
+
+web端使用Vue + antDV,小程序使用uni-app + vant 页面搭建，最终打包成Android 和 微信小程序。
+
+### 难点和亮点
+
+1. 产品用户年纪大部分是四五十岁的人群，手机自带的数字输入键盘太小，自定义封装了计算器键盘全局使用，并针对需求切换是否为小数点键盘，且需要考虑到有的表单是否携带默认值和自定义校验；
+2. 针对箱子上的二维码，在管理端使用qrcode生态库配置对应的信息二维码展示字段，使用html2canvas实现预览功能；调取打印机打印二维码；小程序基于原生camera封装了扫码组件，可以扫取web端生成的二维码，自动填入箱单信息，存入扫描记录；
+   
+<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/project/008.jpg"/>
+
+3. web端自定义配置页面的拖拽点击自定义选项，渲染表单，web端页面成功了；项目后期要求把配置好的页面推送到小程序页面去，后面也有自己试过用bpmn-js-properties-Panel生态库渲染一个表单，导出xml给后端，但没有找到xml转化成微信小程序原生模板的方法，还没实现就over了。
+
+<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/project/012.png"/>
+
+### 业务效果
+
+业务经历一年，参与了从零到一构建开发部署的过程，虽然最后项目组被砍，但认识了一群好伙伴，一起开发提测，有刚参与时的忐忑雄心，结束时的失落突然，好像一场梦。
+
+但也算在工业智造领域中贡献出一份小小的尝试和力量吧，愿离散制造业不再离散。
+
+<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/memories/001.jpg"/>
+
+## 2021 ~ 2022
 
 ### vue3.0+TypeScript+Vite 边缘计算盒(AIoT)
 
