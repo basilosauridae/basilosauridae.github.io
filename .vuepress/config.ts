@@ -31,7 +31,7 @@ export default defineUserConfig({
       '/docs/vue/':[
         {
           text:'Vue',
-          children:['vue2application','vue2principle','theCore']
+          children:['vue2application','vue2principle','theCore','advancedUsage']
         }
       ]
     },
