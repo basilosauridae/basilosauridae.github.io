@@ -9,6 +9,8 @@ categories:
 
 ## 一、mixin复用
 
+>mixin代表了一种思考问题的方法———穿越，mixin实现复用的同时带来了很多问题：命名污染、依赖不透明，Vue3用Composition API替代了
+
 ### mixin是什么
 
 一种比较灵活的方式来分发vue组件可复用的功能，目的是公共逻辑和配置提取
@@ -241,12 +243,22 @@ updated() {
 
 ## 三.插槽
 
-目的：外部组件自定义内部组件的内容，实现内容分发
+### 目的
+
+外部组件自定义内部组件的内容，实现内容分发
 
 - 占位（子组件），分发内容（父组件）
 - 默认插槽、具名插槽（name控制）、作用域插槽关注一下区别
 
-插槽本质：对应函数生成对应虚拟节点。[源码实现](https://github.com/vuejs/vue/blob/main/src/core/instance/render-helpers/render-slot.ts)：重点看`renderSlot`函数
+### 插槽本质 <xicons icon="Star" />
+
+重点方法：
+- $slots & $scopedSlots
+- renderSlot
+- processSlot、processSlotContent
+- generate
+
+函数生成对应虚拟节点。[源码实现](https://github.com/vuejs/vue/blob/main/src/core/instance/render-helpers/render-slot.ts)：重点看`renderSlot`函数
 
 ```js
 //插槽的渲染过程
@@ -288,7 +300,7 @@ export function renderSlot(
 ## 四.插件
 
 - 插件是在不侵入源码的情况下，对源码进行扩展。
-- 插件可以是对象（对象需要install），也可以是函数（同install）
+- 插件可以是对象（对象需要install函数），也可以是函数（形态需同install保持一致）
 - webpack、tappable、vue、vue-router、pinia都是插件提供的内容
 - 核心内容、插件基座、插件注册、插件卸载、插件生命周期
 
@@ -296,33 +308,131 @@ export function renderSlot(
 
 在Vue中的插件，都是基于Vue实例,调用Vue的能力，对Vue生态去拓展功能。
 
+```js
+const MyPlugin = {
+  install(Vue, options) {
+    // 1. 添加全局方法或 property
+    Vue.myGlobalMethod = function () {
+      // 逻辑...
+    }
+  
+    // 2. 添加全局资源
+    Vue.directive('my-directive', {
+      bind (el, binding, vnode, oldVnode) {
+        // 逻辑...
+      }
+      ...
+    })
+  
+    // 3. 注入组件选项
+    Vue.mixin({
+      created: function () {
+        // 逻辑...
+      }
+      ...
+    })
+  
+    // 4. 添加实例方法
+    Vue.prototype.$myMethod = function (methodOptions) {
+      // 逻辑...
+    }
+  }
+};
+```
+
+### 使用插件
+```js
+Vue.use(MyPlugin);
+{{ $myMethod }}
+```
+
+### 插件机制化原理 <xicons icon="Star" />
 ```js 
 //Vue.use 原理
-export function initUse(Vue:GlobalAPI){
-  Vue.use = funtion(plugin: Function | Object){
-    //获取已安装的插件
-    const installedPlugins = this._installedPlugins || (this._installedPlugins={})
-    //看看插件是否已经安装 安装了返回
-    if(installedPlugins.indexOf(plugin) > -1){
+export function initUse (Vue: GlobalAPI) {
+  Vue.use = function (plugin: Function | Object) {
+    // 获取已经安装的插件
+    const installedPlugins = (this._installedPlugins || (this._installedPlugins = []))
+    // 看看插件是否已经安装，如果安装了直接返回
+    if (installedPlugins.indexOf(plugin) > -1) {
       return this
     }
 
-    //toArray(arguments,1)实现的功能是，获取Vue.use(plugin,xx,xx)中的其他参数
-    //如 Vue.use(plugin,{size:'mini',theme:'black'}),获取到plugin之外的其他参数
-    const args = toArray(arguments,1)
-    //在参数中第一位插入Vue,从而保证第一个参数是Vue实例
+    // toArray(arguments, 1)实现的功能就是，获取Vue.use(plugin,xx,xx)中的其他参数。
+    // 比如 Vue.use(plugin,{size:'mini', theme:'black'})，就会回去到plugin意外的参数
+    const args = toArray(arguments, 1)
+    // 在参数中第一位插入Vue，从而保证第一个参数是Vue实例
     args.unshift(this)
-    //插件要么是一个函数，要么是一个对象（对象包括install方法）
-    if(typeof plugin.install === 'function'){
-      //调用install方法，并传入Vue实例
-      plugin.install.apply(plugin,args)
-    }else if(typeof plugin === 'function'){
-      plugin.apply(null,args)
+    // 插件要么是一个函数，要么是一个对象(对象包含install方法)
+    if (typeof plugin.install === 'function') {
+      // 调用插件的install方法，并传入Vue实例
+      plugin.install.apply(plugin, args)
+    } else if (typeof plugin === 'function') {
+      plugin.apply(null, args)
     }
-    //在已经安装的插件数组中 放进去
+    // 在已经安装的插件数组中，放进去
     installedPlugins.push(plugin)
     return this
   }
+}
+```
+
+### 插件的具体实践
+
+eg:Vue-Router
+
+```js
+import View from './components/view'
+import Link from './components/link'
+
+export let _Vue
+
+export function install (Vue) {
+  if (install.installed && _Vue === Vue) return
+  install.installed = true
+
+  _Vue = Vue
+
+  const isDef = v => v !== undefined
+
+  const registerInstance = (vm, callVal) => {
+    let i = vm.$options._parentVnode
+    if (isDef(i) && isDef(i = i.data) && isDef(i = i.registerRouteInstance)) {
+      i(vm, callVal)
+    }
+  }
+
+  Vue.mixin({
+    beforeCreate () {
+      if (isDef(this.$options.router)) {
+        this._routerRoot = this
+        this._router = this.$options.router
+        this._router.init(this)
+        Vue.util.defineReactive(this, '_route', this._router.history.current)
+      } else {
+        this._routerRoot = (this.$parent && this.$parent._routerRoot) || this
+      }
+      registerInstance(this, this)
+    },
+    destroyed () {
+      registerInstance(this)
+    }
+  })
+
+  Object.defineProperty(Vue.prototype, '$router', {
+    get () { return this._routerRoot._router }
+  })
+
+  Object.defineProperty(Vue.prototype, '$route', {
+    get () { return this._routerRoot._route }
+  })
+
+  Vue.component('RouterView', View)
+  Vue.component('RouterLink', Link)
+
+  const strats = Vue.config.optionMergeStrategies
+  // use the same hook merging strategy for route hooks
+  strats.beforeRouteEnter = strats.beforeRouteLeave = strats.beforeRouteUpdate = strats.created
 }
 ```
 
