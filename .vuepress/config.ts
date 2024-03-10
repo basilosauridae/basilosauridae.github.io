@@ -25,13 +25,13 @@ export default defineUserConfig({
       '/docs/guide/': [
         {
           text:'Memories',
-          children:['introduce','mycat','standard','interview']
+          children:['introduce','mycat','standard','thingy']
         }
       ],
       '/docs/vue/':[
         {
           text:'Vue',
-          children:['vue2application','vue2principle','advancedUsage','Vue3new','vueState']
+          children:['vue2application','vue2principle','advancedUsage','Vue3new','vueState','vueRouter']
         }
       ]
     },
