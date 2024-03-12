@@ -25,7 +25,7 @@ export default defineUserConfig({
       '/docs/guide/': [
         {
           text:'Memories',
-          children:['introduce','mycat','standard','thingy']
+          children:['introduce','mycat','standard','thingy','noun']
         }
       ],
       '/docs/vue/':[
