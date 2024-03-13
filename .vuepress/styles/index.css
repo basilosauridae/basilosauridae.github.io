@@ -4,14 +4,33 @@ body{
 img{
   border-radius: 0.2rem;
 }
-
+/* 首页背景图自动切换 */
+.banner-brand-wrapper{
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  animation: changeBg 30s infinite
+}
+@keyframes changeBg{
+  0%{
+    background-image: url('https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/others/bg3.gif');
+  }
+  20%{
+    background-image: url('https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/others/bg.jpg');
+  }
+  70%{
+    background-image: url('https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/others/bg2.jpg');
+  }
+  100%{
+    background-image: url('https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/others/bg4.jpg');
+  }
+}
 /* 公共动画 */
 @property --rotate {
   syntax: "<angle>";
   initial-value: 132deg;
   inherits: true;
 }
-
 /* 首页背景色,避免切换日夜模式时卡片突兀 */
 .home-wrapper{
   background: #22272e;
