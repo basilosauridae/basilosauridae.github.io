@@ -4,7 +4,7 @@ date: 2024/03/01
 tags:
   - vue
 categories:
-  - Vue
+  - 前端开发
 ---
 
 ## 一、Vue Router基础

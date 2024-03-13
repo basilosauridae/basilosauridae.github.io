@@ -4,7 +4,7 @@ date: 2023/12/08
 tags:
   - vue
 categories:
-  - Vue
+  - 前端开发
 ---
 
 ## 1、Vue中key的原理

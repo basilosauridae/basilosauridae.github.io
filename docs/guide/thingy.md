@@ -1,6 +1,8 @@
 ---
 title: 奇奇怪怪的问题
 date: 2023/06/08
+tags:
+  - 日常
 categories:
   - 总结
 ---

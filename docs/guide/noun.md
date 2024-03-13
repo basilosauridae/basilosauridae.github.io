@@ -1,6 +1,8 @@
 ---
 title: 开发文档中的英文
 date: 2023/10/05
+tags:
+  - 日常
 categories:
   - 总结
 ---

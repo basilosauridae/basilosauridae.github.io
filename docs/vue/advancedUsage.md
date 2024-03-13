@@ -4,7 +4,7 @@ date: 2024/01/06
 tags:
   - vue
 categories:
-  - Vue
+  - 前端开发
 ---
 
 ## 一、mixin复用

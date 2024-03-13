@@ -1,6 +1,10 @@
 ---
 title: 花花是一只猫
 date: 2022/06/08
+tags:
+   - 日常
+categories:
+   - 总结
 ---
 
 ::: info
