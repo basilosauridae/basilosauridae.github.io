@@ -6,6 +6,9 @@ tags:
 categories:
   - 总结
 ---
+### antlr
+
+关于编译器的规范化和统一口径：[antlr](https://www.antlr.org/),计算机领域中编译前沿工具，不属于前端范畴， 可以查到AST树的遍历方式。
 
 ### SFC
 

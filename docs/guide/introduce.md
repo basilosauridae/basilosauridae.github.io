@@ -104,7 +104,8 @@ web端使用Vue + antDV,小程序考虑到初代产品的销售推广和性能�
 
 - 邮箱：lumang7520@126.com
 - [Github](https://github.com/Basilosauridae)
-- [Steam](https://steamcommunity.com/profiles/76561199024540854/) (欢迎找我玩~)
 - [掘金](https://juejin.cn/user/2489763823616141)
+- [网易云](https://music.163.com/#/user/home?id=3961162557)
+- [Steam](https://steamcommunity.com/profiles/76561199024540854/) (扩列游戏共享啦~)
 
 ![](https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/others/bjyx.gif)
