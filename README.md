@@ -17,11 +17,11 @@ bannerBrand:
   tagline: You have to be a new person before you can solve old problems.你必须是一个新的人，你才能去解决旧的问题。
   buttons:
     - { text: About Me, link: '/docs/guide/introduce' }
-    - {
-        text: Standard,
-        link: '/docs/guide/standard',
-        type: 'plain',
-      }
+    # - {
+    #     text: Standard,
+    #     link: '/docs/guide/standard',
+    #     type: 'plain',
+    #   }
 isShowTitleInHome: true
 actionText: About
 actionLink: /views/other/about

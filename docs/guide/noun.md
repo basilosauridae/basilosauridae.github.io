@@ -6,6 +6,12 @@ tags:
 categories:
   - 总结
 ---
+### WeakMap
+
+弱引用map,一般在存储对象作为key时使用，与垃圾回收和新能处理关联大。Vue3中源码：`const targetMap = new WeakMap<any, KeyToDepMap>() `
+
+- 问题：weakMap什么时候被清除
+
 ### antlr
 
 关于编译器的规范化和统一口径：[antlr](https://www.antlr.org/),计算机领域中编译前沿工具，不属于前端范畴， 可以查到AST树的遍历方式。

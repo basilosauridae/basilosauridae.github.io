@@ -6,23 +6,57 @@ img{
 }
 /* 首页背景图自动切换 */
 .banner-brand-wrapper{
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center center;
   overflow: hidden;
-  animation: changeBg 30s infinite
+  animation: changeBg 42s infinite;
 }
 @keyframes changeBg{
   0%{
-    background-image: url('https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/others/bg3.gif');
+    background-image: url('https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/others/bg1.gif');
   }
-  35%{
-    background-image: url('https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/others/bg.jpg');
-  }
-  70%{
+  33%{
     background-image: url('https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/others/bg2.jpg');
+  }
+  66%{
+    background-image: url('https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/others/bg3.jpg');
   }
   100%{
     background-image: url('https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/others/bg4.jpg');
+  }
+}
+/* 首页按钮颜色自动切换 */
+.banner-brand-wrapper .hero-content .hero-text .btn-group li .icon-container{
+  color: #fff;
+  border: transparent;
+  cursor: pointer;
+  animation: changeBtn 40s infinite;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2),
+    -1px -1px 10px rgba(255, 255, 255, 0.8),
+    inset 0px 0px 0px rgba(0, 0, 0, 0.2),
+    inset 0px 0px 0px rgba(255, 255, 255, 0.8);
+  transition: 0.2s;
+}
+/* 模拟ios网页按钮点击效果 */
+.banner-brand-wrapper .hero-content .hero-text .btn-group li .icon-container:hover{
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2),
+    0px 0px 0px rgba(255, 255, 255, 0.8),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.2),
+    inset -2px -2px 6px rgba(255, 255, 255, 0.8);
+  transform: translateY(10px) scale(0.98);
+}
+@keyframes changeBtn{
+  0%{
+    background-color: #6566e0;
+  }
+  35%{
+    background-color: #aa4a2d;
+  }
+  70%{
+    background-color: #06abc4;
+  }
+  100%{
+    background-color: #ffc0c9;
   }
 }
 /* 公共动画 */
