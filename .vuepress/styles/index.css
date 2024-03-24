@@ -140,8 +140,8 @@ img{
   }
   .post-item-container::before {
     content: "";
-    width: 105%;
-    height: 110%;
+    width: 102%;
+    height: 103%;
     border-radius: 8px;
     background-image: linear-gradient(
       var(--rotate)
@@ -149,7 +149,7 @@ img{
       position: absolute;
       z-index: -1;
       top: -1%;
-      left: -2%;
+      left: -1%;
       animation: spin 2.5s linear infinite;
   }
   .post-item-container::after {

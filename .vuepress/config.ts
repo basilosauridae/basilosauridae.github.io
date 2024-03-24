@@ -3,13 +3,13 @@ import recoTheme from 'vuepress-theme-reco'
 import { plugins } from './config/index'
 
 export default defineUserConfig({
-  title: '影大宝',
+  title: "Ying's Blog🥴",
   description: 'Just playing around',
   theme: recoTheme({
     style: '@vuepress-reco/style-default',
     colorMode: 'light', // dark, light
     logo: '/logo.png',
-    author: '影大宝',
+    author: '影大宝🧐',
     docsRepo: 'https://github.com/vuepress-reco/vuepress-theme-reco-next',
     docsBranch: 'main',
     docsDir: 'example',
