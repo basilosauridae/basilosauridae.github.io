@@ -72,16 +72,19 @@
         }
       }
     }
+    .bookshelf_preview_items:nth-child(4n){
+      margin-right: 0;
+    }
   }
 </style>
 
 <template>
   <div class="bookshelf_preview_container">
-    <div class="bookshelf_preview_items" 
-      v-for="(item,index) in books[bookType]" 
+    <div 
+      class="bookshelf_preview_items" 
+      v-for="item in books[bookType]" 
       :key="item.url" 
       :title="item.name"
-      :style="(index+1)%4===0?'margin-right:0':''"
     >
       <a href="#"></a>
       <div class="bookshelf_preview_item">
@@ -89,8 +92,8 @@
           <img :src="item.url" alt="书籍封面">
         </div>
         <div class="bookshelf_preview_content">
-          <p class="bookshelf_preview_title">{{item.name}}</p>
-          <span class="bookshelf_preview_author">{{item.author}}</span>
+          <p class="bookshelf_preview_title" >{{item.name}}</p>
+          <span class="bookshelf_preview_author" :title="item.author">{{item.author}}</span>  
         </div>
       </div>
     </div>
