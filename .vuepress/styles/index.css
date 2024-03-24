@@ -30,7 +30,7 @@ img{
   color: #fff;
   border: transparent;
   cursor: pointer;
-  animation: changeBtn 40s infinite;
+  animation: changeBtn 42s infinite;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2),
     -1px -1px 10px rgba(255, 255, 255, 0.8),
     inset 0px 0px 0px rgba(0, 0, 0, 0.2),

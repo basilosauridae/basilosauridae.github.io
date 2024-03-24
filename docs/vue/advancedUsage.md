@@ -55,9 +55,9 @@ categories:
 
 ### 合并
 
-- 生命周期 合并为数组
-- 数据对象内容 覆盖方式
-- methods冲突 当前组件为准
+- 生命周期 合并为数组（mixin先触发）
+- 数据对象内容 覆盖方式（mixin被覆盖）
+- methods、计算属性等冲突（mixin被覆盖）
 
 ### 优势
 
@@ -76,6 +76,8 @@ categories:
 - 若简单组件状态 props
 - 跨组件 provide/inject
 - 处理更复杂组件之间的共享 vuex pini（对比会写一份笔记记录 占坑）
+
+详细解释见本博客[《关于Vue进阶问题的总结》](/blogs/category1/2024/0324.html)
 
 ## 二.Vue.js动画特效 & 常见组件库介绍
 
@@ -300,7 +302,8 @@ export function renderSlot(
 ## 四.插件
 
 - 插件是在不侵入源码的情况下，对源码进行扩展。
-- 插件可以是对象（对象需要install函数），也可以是函数（形态需同install保持一致）
+- 插件可以是对象（对象需要提供install函数），也可以是函数（形态需同install函数保持一致）
+- install 是组件安装的一个方法，npm install是命令，两者不等同
 - webpack、tappable、vue、vue-router、pinia都是插件提供的内容
 - 核心内容、插件基座、插件注册、插件卸载、插件生命周期
 
@@ -435,7 +438,6 @@ export function install (Vue) {
   strats.beforeRouteEnter = strats.beforeRouteLeave = strats.beforeRouteUpdate = strats.created
 }
 ```
-
 ## 五.过滤器
 
 ## 六.单元素/组件动画
