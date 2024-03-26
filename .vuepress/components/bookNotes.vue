@@ -85,6 +85,7 @@
       v-for="item in books[bookType]" 
       :key="item.url" 
       :title="item.name"
+      :style="{ 'width': isMobile?'100%':''}"
     >
       <a href="#"></a>
       <div class="bookshelf_preview_item">
@@ -106,9 +107,25 @@ export default {
   name: "bookNotes",
   data(){
     return{
-      books
+      books,
+      isMobile:false
     }
   },
-  props:['bookType']
+  props:['bookType'],
+  mounted(){
+    this.getScreen()
+  },     
+  methods:{
+    getScreen() {
+      if (
+        navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i
+        )
+      ) {
+        this.isMobile = true;
+      } else {
+        this.isMobile = false;
+      }
+    }
+  }
 }
 </script>

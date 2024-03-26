@@ -13,7 +13,7 @@ categories:
 
 Vue3（Composition API） + TS 的写法，能保证我们的代码以更倾向于`函数式编程`。
 
-### 选项式和组合式API
+### 选项式optional API和组合式Composition API
 
 - Vue2的基本语法很规整，多人协作或业务繁杂会导致写法臃肿，这是`选项式API`的弊端
 

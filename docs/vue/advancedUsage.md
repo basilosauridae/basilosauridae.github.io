@@ -354,26 +354,26 @@ Vue.use(MyPlugin);
 //Vue.use 原理
 export function initUse (Vue: GlobalAPI) {
   Vue.use = function (plugin: Function | Object) {
-    // 获取已经安装的插件
+    // 获取已经安装的插件🚩1.
     const installedPlugins = (this._installedPlugins || (this._installedPlugins = []))
     // 看看插件是否已经安装，如果安装了直接返回
     if (installedPlugins.indexOf(plugin) > -1) {
       return this
     }
-
-    // toArray(arguments, 1)实现的功能就是，获取Vue.use(plugin,xx,xx)中的其他参数。
+    // toArray(arguments, 1)实现的功能就是，获取Vue.use(plugin,xx,xx)中的其他参数。🚩2.
     // 比如 Vue.use(plugin,{size:'mini', theme:'black'})，就会回去到plugin意外的参数
     const args = toArray(arguments, 1)
-    // 在参数中第一位插入Vue，从而保证第一个参数是Vue实例
+    // 在参数中第一位插入Vue，从而保证第一个参数是Vue实例，unshift方法让argus第一项是this🚩2.
     args.unshift(this)
     // 插件要么是一个函数，要么是一个对象(对象包含install方法)
     if (typeof plugin.install === 'function') {
-      // 调用插件的install方法，并传入Vue实例
+      // 调用插件的install方法，并传入Vue实例 🚩3.
       plugin.install.apply(plugin, args)
     } else if (typeof plugin === 'function') {
+      //调用插件plugin并传入args🚩3.
       plugin.apply(null, args)
     }
-    // 在已经安装的插件数组中，放进去
+    // 在已经安装的插件数组中，放进去🚩4.
     installedPlugins.push(plugin)
     return this
   }
