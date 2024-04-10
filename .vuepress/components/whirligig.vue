@@ -100,6 +100,10 @@
             transform: rotateY(300deg) translateZ(98px);
             background-color: rgba(153, 204, 204, 0.8);
         }
+        img{
+            width: 500px;
+            height: 120px;
+        }
     }
     @-webkit-keyframes photoRotate {
         0% {
@@ -176,13 +180,6 @@
                     <img :src="imgSrc[3]" class='piece' style="-webkit-transform: rotateY(180deg) translateZ(196px);">
                     <img :src="imgSrc[4]" class='piece' style="-webkit-transform: rotateY(240deg) translateZ(196px);">
                     <img :src="imgSrc[5]" class='piece' style="-webkit-transform: rotateY(300deg) translateZ(196px);">
-                    <!-- 此处使用div代替 -->
-<!--                    <div class='example' style=""></div>-->
-<!--                    <div class='example' style=""></div>-->
-<!--                    <div class='example' style=""></div>-->
-<!--                    <div class='example' style=""></div>-->
-<!--                    <div class='example' style=""></div>-->
-<!--                    <div class='example' style=""></div>-->
                 </div>
             </div>
         </div>
@@ -195,12 +192,12 @@
         data() {
             return {
                 imgSrc: [
-                    "https://www.zpzpup.com/assets/image/example/bg1.jpg",
-                    "https://www.zpzpup.com/assets/image/example/bg2.jpg",
-                    "https://www.zpzpup.com/assets/image/example/bg3.jpg",
-                    "https://www.zpzpup.com/assets/image/example/bg4.jpg",
-                    "https://www.zpzpup.com/assets/image/example/bg5.jpg",
-                    "https://www.zpzpup.com/assets/image/example/bg6.jpg"
+                    "https://img0.baidu.com/it/u=1999089674,2295528422&fm=253&fmt=auto&app=138&f=JPEG?w=650&h=500",
+                    "https://img2.baidu.com/it/u=590553397,470691825&fm=253&fmt=auto&app=138&f=JPEG?w=650&h=500",
+                    "https://img1.baidu.com/it/u=1310668664,949184061&fm=253&fmt=auto&app=138&f=JPEG?w=650&h=500",
+                    "https://img0.baidu.com/it/u=1733583044,3174717576&fm=253&fmt=auto&app=120&f=JPEG?w=650&h=500",
+                    "https://img2.baidu.com/it/u=1909889665,1004291564&fm=253&fmt=auto&app=138&f=JPEG?w=650&h=500",
+                    "https://img0.baidu.com/it/u=3607050465,1921781155&fm=253&fmt=auto&app=138&f=JPEG?w=650&h=500"
                 ]
             }
         },

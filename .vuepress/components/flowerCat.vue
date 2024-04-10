@@ -18,7 +18,7 @@
     0px 0px 0px rgba(255, 255, 255, 0.8),
     inset 2px 2px 6px rgba(0, 0, 0, 0.2),
     inset -2px -2px 6px rgba(255, 255, 255, 0.8);
-  transform: translateY(10px) scale(0.99);
+  transform: translateY(10px) scale(0.98);
 }
 .top_item{
   display: flex;
@@ -101,7 +101,8 @@ export default {
   computed:{
     ageInfo(){
       // 解析出生日期字符串为Date对象
-      const birthDate = new Date('2021-6-22');
+      // const birthDate = new Date('2021-6-22');//IOS5以上版本（不包含IOS5）中的Safari无法解析此写法
+      const birthDate = new Date('2021-6-22'.replace(/-/g,'/'));
       const currentDate = new Date(); // 当前日期和时间
 
       // 计算年龄和月份

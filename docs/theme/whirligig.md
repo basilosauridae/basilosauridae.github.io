@@ -7,6 +7,8 @@ tags:
 
 <whirligig/>
 
+[friends_link：bjyxszd🐢爱心💖💚💛](https://www.bjyxszd.com)
+
 ```html
 <div class="whirligig">
   <div class="demo-perspective-photo">
