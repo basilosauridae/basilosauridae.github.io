@@ -200,8 +200,7 @@
                     "https://img0.baidu.com/it/u=3607050465,1921781155&fm=253&fmt=auto&app=138&f=JPEG?w=650&h=500"
                 ]
             }
-        },
-        methods: {}
+        }
     }
 </script>
 

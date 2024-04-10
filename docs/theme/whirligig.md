@@ -7,7 +7,7 @@ tags:
 
 <whirligig/>
 
-[friends_link：bjyxszd🐢爱心💖💚💛](https://www.bjyxszd.com)
+[friends_link：bjyxszd🐢💖💚💛](https://www.bjyxszd.com)
 
 ```html
 <div class="whirligig">

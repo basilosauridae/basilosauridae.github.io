@@ -43,6 +43,7 @@ export default defineUserConfig({
           { text:"7gugu's Blog",link:'https://7gugu.com/' },
           { text:"❖星港◎Star☆",link:'https://blog.starsharbor.com/' },
           { text:"booop的小站",link:'https://booop.net/' },
+          { text:"小鹿🦌的网站",link:'https://www.hsuyeung.com/' },
         ]
       },
       { text: 'Tags', link: '/tags/vue/1' },
