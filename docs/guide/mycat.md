@@ -13,6 +13,8 @@ categories:
 2. 此篇博文实际是花花口述 略懂喵语的影大宝记录。
    :::
 
+<flowerCat/>
+
 ### 本喵出生之时，夏末初秋。
 
 <img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/cat/cat1.jpeg"><br>
@@ -46,3 +48,34 @@ categories:
 ### 今日本喵自传就写到这里，来日方长。
 
 <img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/cat/psc.jpg"><br>
+2021年结束了。
+
+## 本喵又来更新了。
+
+<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/cat/20240410171721.jpg"><br>
+2022年秋，拍摄于上海 华漕，影大宝搬家了。斯是陋室，惟吾德馨。
+
+### 绿树阴浓夏日长,楼台倒影入池塘。水晶帘动微风起,满架蔷薇一院香。
+
+<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/cat/20240410171729.jpg"><br>
+<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/cat/20240410173146.jpg"><br>
+2023年夏，拍摄于上海 闵行，影大宝换了一个有落地窗的房子，甚得喵意。
+
+### 水为乡，篷作舍，鱼羹稻饭常餐也。
+
+<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/cat/20240410173158.jpg"><br>
+2023年秋，本喵屈尊陪影大宝吃牛肉豆芽汤一餐。
+
+### 巧护狸狂莫惊吓,好留相伴诵心经。
+
+<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/cat/20240410173934.jpg"><br>
+
+2023年冬，本喵和影大宝看【甜蜜家园】恐怖片记录，被名字唬到，一点也不甜蜜。
+
+### 看君终日常安卧，何事纷纷去又回。
+
+<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/cat/20240410174759.jpg"><br>
+
+2024年春，影大宝忙得不见人影，其友雷雷美女相伴于夕阳下。
+
+未完待续 》》》

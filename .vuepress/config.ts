@@ -41,7 +41,8 @@ export default defineUserConfig({
         text: '友情链接💟🐾',
         children: [
           { text:"7gugu's Blog",link:'https://7gugu.com/' },
-          { text:"❖星港◎Star☆",link:'https://blog.starsharbor.com/' }
+          { text:"❖星港◎Star☆",link:'https://blog.starsharbor.com/' },
+          { text:"booop的小站",link:'https://booop.net/' },
         ]
       },
       { text: 'Tags', link: '/tags/vue/1' },
