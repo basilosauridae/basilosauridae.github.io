@@ -37,14 +37,12 @@ export default defineUserConfig({
     },
     navbar:
     [
-      { text: 'Home', link: '/'},
-      { text: 'Docs',
-      children: [
-        { text: 'Memories', link: '/docs/guide/introduce' },
-        { text: 'Vue', link: '/docs/vue/vue2application' },
-        { text: 'JS', link: '/tags/JS/1' },
-        { text: 'Css', link: '/docs/theme/magic' },
-      ]
+      {
+        text: '友情链接💟🐾',
+        children: [
+          { text:"7gugu's Blog",link:'https://7gugu.com/' },
+          { text:"❖星港◎Star☆",link:'https://blog.starsharbor.com/' }
+        ]
       },
       { text: 'Tags', link: '/tags/vue/1' },
       {
@@ -55,7 +53,8 @@ export default defineUserConfig({
           { text:'github',link:'https://github.com/Basilosauridae' },
           { text:'邮箱lumang7520@126.com',link:'https://mail.126.com/' }
         ]
-      }
+      },
+      { text: 'Home', link: '/'}
     ],
     plugins:plugins
   }),
