@@ -161,9 +161,17 @@ this.$store.state.user
 :::
 ::::
 
-### vuex的原理
+### vuex的实现原理
 
-需补充
+Vuex 为 Vue Components 建立起了完整的生态圈，包括 API 调用的一环。围绕这个生态圈，总结下各模块在核心流程中的主要功能：
+
+- Vue Components:即 Vue组件。HTML交互页面上，负责接受用户操作等交互行为，执行 dispatch 方法触发对应的 action 进行回应。
+- dispatch：操作行为触发方法，唯一能执行 action 的方法。
+- actions：操作行为处理模块，负责 Vue Components 接收的所有交互行为。包含同步、异步操作，支持多个同名方法，按照注册顺序依次触发。向后台 API 请求的操作就在这个模块中进行，包括触发其他 actions 以及提交 mutation 的操作。**该模块提供了 Promise 封装，以支持 action 的链式触发。** 
+- commit：状态改变提交操作的方法。对 mutation 进行提交，是唯一能执行 mutation 的方法。
+- mutations：状态改变的操作方法。是 Vue 中唯一能修改 state 的方法。此方法只能同步操作，方法名需全局统一。操作中会有一些 hook 暴露出来，以进行对 state 的监控。
+- state：页面状态管理容器对象。集中储存 Vue Components 中 data 对象的零散数据，全局唯一，以进行统一的状态管理。**页面显示所需数据从该对象中进行读取，利用 Vue 的细粒度数据响应机制来进行高效的状态更新。**
+- getters：state 对象的读取方法，Vue Components 通过此读取全局 state 对象。
 
 ## 三、Pinia
 

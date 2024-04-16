@@ -74,7 +74,7 @@
     </div>
     <div class="bottom_item">
       <div>
-        喜爱食物：<span>虾</span>🦐，<span>猫粮和罐头</span>🍚，<span>榴莲</span>🥟，<span>甜食</span>🍬
+        喜爱食物：<span>虾</span>🦐，<span>猫粮和罐头</span>🍚，<span>榴莲</span>🥟，<span>甜食</span>如蜜瓜、水果玉米🌽等
       </div>
       <div>
         生活乐趣：和<span>影大宝</span>😎玩耍，被<span>梳毛</span>🛀，看<span>动画片</span>🤡

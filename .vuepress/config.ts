@@ -38,12 +38,13 @@ export default defineUserConfig({
     navbar:
     [
       {
-        text: '友情链接💟🐾',
+        text: '友情链接💌🐾',
         children: [
+          { text:'阮一峰的网络日志',link:'https://www.ruanyifeng.com/blog/' },
           { text:"7gugu's Blog",link:'https://7gugu.com/' },
           { text:"❖星港◎Star☆",link:'https://blog.starsharbor.com/' },
           { text:"booop的小站",link:'https://booop.net/' },
-          { text:"小鹿🦌的网站",link:'https://www.hsuyeung.com/' },
+          { text:"HsuYeung的博客",link:'https://www.hsuyeung.com/' }
         ]
       },
       { text: 'Tags', link: '/tags/vue/1' },
