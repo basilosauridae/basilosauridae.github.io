@@ -6,6 +6,13 @@ tags:
 categories:
   - 总结
 ---
+
+### SOP
+
+standard operating procedure，标准作业程序，将某一件事的标准操作步骤和要求以统一的格式描述出来，用于指导和规范日常的工作。SOP 就是对某一程序的关键控制点进行细化和量化。
+
+- [本博客相关链接](/blogs/category1/2024/0417.html)：前端工程化 = 前端 + 软件工程（打包构建），将工程方法论（SOP）应用到前端开发整个流程。
+
 ### WeakMap
 
 弱引用map,一般在存储对象作为key时使用，与垃圾回收和新能处理关联大。Vue3中源码：`const targetMap = new WeakMap<any, KeyToDepMap>() `
