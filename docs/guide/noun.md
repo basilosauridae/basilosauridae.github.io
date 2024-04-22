@@ -7,6 +7,15 @@ categories:
   - 总结
 ---
 
+### polyfill
+
+polyfill(polyfiller)，指的是一个代码块。这个代码块向开发者提供了一种技术， 这种技术可以让浏览器提供原生支持，抹平不同浏览器对API兼容性的差异。
+
+"Polyfilla（美国的一种抹墙粉）是一种糨糊(原文为paste)，可以被抹到墙上来覆盖墙上的裂缝和窟窿。polyfill一词就像是把糨糊抹到浏览器的窟窿里一样，polyfill给我一种可视化修复浏览器的感觉，我非常喜欢。一旦墙变平整了，便可以随心所欲地喷漆或者绘画。正如浏览器的bug都修复了，可以随心所欲地编写代码一样。"——《介绍HTML5》
+
+"A shim that mimics a future API providing fallback functionality to older browsers.
+模拟未来api的垫片,为旧版本的浏览器提供了应变计划." ——[Paul](https://www.paulirish.com/)
+
 ### SOP
 
 standard operating procedure，标准作业程序，将某一件事的标准操作步骤和要求以统一的格式描述出来，用于指导和规范日常的工作。SOP 就是对某一程序的关键控制点进行细化和量化。
