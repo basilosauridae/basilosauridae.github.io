@@ -1,1 +1,0 @@
-import{_ as a,o as _,c as s,a3 as c,a4 as t,b as o}from"./app.ecb9ddd6.js";const r={},d=e=>(c("data-v-ff6e9960"),e=e(),t(),e),l={class:"bg"},n=d(()=>o("div",{class:"rainbow"},[o("span",null,"Colorful Text")],-1)),f=[n];function p(e,u){return _(),s("div",l,f)}var v=a(r,[["render",p],["__scopeId","data-v-ff6e9960"],["__file","colorfulCard.vue"]]);export{v as default};
