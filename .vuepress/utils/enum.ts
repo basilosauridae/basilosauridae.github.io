@@ -44,13 +44,14 @@ export const books = {
     { name:'狐狸在夜晚来临',url:'https://cdn.weread.qq.com/weread/cover/30/YueWen_41100358/t6_YueWen_41100358.jpg',author:'塞斯·诺特博姆' },
   ],
   2024:[
-    { name:'窄门',url:'https://cdn.weread.qq.com/weread/cover/35/YueWen_23736455/t6_YueWen_23736455.jpg',author:'纪德' }
+    { name:'窄门',url:'https://cdn.weread.qq.com/weread/cover/35/YueWen_23736455/t6_YueWen_23736455.jpg',author:'纪德' },
+    { name:'我们生活在巨大的差距里',url:'https://cdn.weread.qq.com/weread/cover/91/YueWen_737527/t6_YueWen_737527.jpg',author:'余华' },
   ],
   'academic':[
+    { name:'前端工程化：体系设计与实践',author:'周俊鹏',url:'https://cdn.weread.qq.com/weread/cover/7/YueWen_23914574/t6_YueWen_23914574.jpg' },
     { name:'JavaScript高级程序设计(第4版)',url:'https://wfqqreader-1252317822.image.myqcloud.com/cover/683/34336683/t6_34336683.jpg',author:'马特·弗里斯比' },
     { name:'学习javascript数据结构与算法(第3版)',url:'https://cdn.weread.qq.com/weread/cover/3/YueWen_26211966/t6_YueWen_26211966.jpg',author:'洛伊安妮·格罗纳' },
     { name:'你不知道的JavaScript(上卷）',url:'https://wfqqreader-1252317822.image.myqcloud.com/cover/945/22806945/t6_22806945.jpg',author:'凯尔辛普森' },
-    { name:'图解HTTP',url:'https://cdn.weread.qq.com/weread/cover/45/YueWen_907764/t6_YueWen_907764.jpg',author:'上野宣' },
   ],
   'socialSciences':[
     { name:'疫苗竞赛：人类对抗疾病的代价（天际线丛书）',url:'https://cdn.weread.qq.com/weread/cover/74/YueWen_32332386/t6_YueWen_32332386.jpg',author:'梅雷迪丝·瓦德曼' },
@@ -65,13 +66,19 @@ export const books = {
     { name:'眨眼之间',url:'https://cdn.weread.qq.com/weread/cover/25/YueWen_33808591/t6_YueWen_33808591.jpg',author:'马尔科姆·格拉德威尔' },
     { name:'外婆出租中',url:'https://wfqqreader-1252317822.image.myqcloud.com/cover/571/41995571/t6_41995571.jpg',author:'丽芙·阿巴思诺特' },
     { name:'太古和其他的时间',url:'https://cdn.weread.qq.com/weread/cover/65/YueWen_23863089/t6_YueWen_23863089.jpg',author:'奥尔加·托卡尔丘克' },
-    { name:'我们生活在巨大的差距里',url:'https://cdn.weread.qq.com/weread/cover/91/YueWen_737527/t6_YueWen_737527.jpg',author:'余华' },
+    { name:'沉默的大多数',url:'https://cdn.weread.qq.com/weread/cover/48/YueWen_30766471/t6_YueWen_30766471.jpg',author:'王小波' },
   ],
   'toBeRead':[
+    { name:'一个女人一生中的二十四小时',autor:'茨威格',url:'https://wfqqreader-1252317822.image.myqcloud.com/cover/197/929197/t6_929197.jpg' },
+    { name:'这就是ChatGPT',autor:'斯蒂芬·沃尔弗拉姆',url:'https://cdn.weread.qq.com/weread/cover/24/cpplatform_4cn8w4tmgzntjobg9ffeny/t6_cpplatform_4cn8w4tmgzntjobg9ffeny1703648785.jpg' },
+    { name:'西蒙娜·德·波伏瓦',autor:'西蒙娜·德·波伏瓦',url:'https://cdn.weread.qq.com/weread/cover/96/YueWen_934369/t6_YueWen_934369.jpg' },
+    { name:'很杂很杂的杂学知识（升级版）',autor:'王悦',url:'https://wfqqreader-1252317822.image.myqcloud.com/cover/94/33905094/t6_33905094.jpg' },
+    { name:'兄弟',autor:'余华',url:'https://cdn.weread.qq.com/weread/cover/67/YueWen_834466/t6_YueWen_834466.jpg' },
+    { name:'厌女',autor:'上野千鹤子',url:'https://cdn.weread.qq.com/weread/cover/94/cpplatform_akrjnymgoxljkqszganvbx/t6_cpplatform_akrjnymgoxljkqszganvbx1682248200.jpg' },
     { name:'昨日将至',author:'朱利安·费罗斯',url:'https://wfqqreader-1252317822.image.myqcloud.com/cover/545/23416545/t6_23416545.jpg' },
     { name:'寒鸦行动',author:'肯·福莱特',url:'https://cdn.weread.qq.com/weread/cover/92/YueWen_917193/t6_YueWen_917193.jpg' },
     { name:'中华人民共和国民法典',author:'全国人大法工委',url:'https://cdn.weread.qq.com/weread/cover/79/cpPlatform_aaqrVmBzypiHNRrFbdFtGm/t6_cpPlatform_aaqrVmBzypiHNRrFbdFtGm.jpg' },
-    { name:'前端工程化：体系设计与实践',author:'周俊鹏',url:'https://cdn.weread.qq.com/weread/cover/7/YueWen_23914574/t6_YueWen_23914574.jpg' },
+    { name:'图解HTTP',url:'https://cdn.weread.qq.com/weread/cover/45/YueWen_907764/t6_YueWen_907764.jpg',author:'上野宣' },
     { name:'飞行家',author:'双雪涛',url:'https://cdn.weread.qq.com/weread/cover/43/YueWen_918535/t6_YueWen_918535.jpg' },
     { name:'日本沉没',author:'小松左京',url:'https://cdn.weread.qq.com/weread/cover/29/YueWen_32072441/t6_YueWen_32072441.jpg' },
     { name:'蔡澜美食文化',author:'蔡澜',url:'https://cdn.weread.qq.com/weread/cover/98/YueWen_27248197/t6_YueWen_27248197.jpg' },
