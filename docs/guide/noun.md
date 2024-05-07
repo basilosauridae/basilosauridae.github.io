@@ -6,6 +6,24 @@ tags:
 categories:
   - 总结
 ---
+### XSS & CSRF
+
+:::info 衍生问题：说一说cookie、session、localStorage的区别
+
+- cookie 一般存放用户属性，存在服务端的 Redis 里，通过响应头写到前端；前端也可以操作 cookie，但会出现很多问题。如产生 **XSS 攻击**，因为前端无法设置 HTTP only 属性；
+- session 一般存放在当前页面的，换个窗口就没了，一些临时数据或者用户会话相关的信息，保障用户隐私；
+- localStorage 本地，一般 4M 左右。
+
+除此之外，还有 webSQL、indexed DB，大概200 - 400M。
+
+:::
+**cookie属性**（衍生问题2）有 Http only、Secure、Samesite等，cookie 最重要的就是为了防止各种攻击，如 **XSS、CSRF攻击**。
+
+CSRF攻击指你登录了一个银行网站A，同时登录了钓鱼网站B，B向A调了存钱接口，自动把同域名的 cookie 带过去。如果你不设置`cookie的 Samesite 属性`，就会自动带着你的 cookie 去调取存钱接口，造成很大的安全问题。所以谷歌 85 之后，它会强制默认 Samesite 的严格属性，禁止cookie被第三方调用；
+
+`Http only属性`是为了防止 XSS 攻击，禁止他人取到你的cookie。经常有不法分子通过 XSS 取到本地cookie，用别人的用户信息做一些违法操作。
+
+`Secure`如果设置了该标志，表示该Cookie只能通过加密协议（如HTTPS）传输。
 
 ### polyfill
 
