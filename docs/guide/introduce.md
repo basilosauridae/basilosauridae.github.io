@@ -15,7 +15,7 @@ categories:
 
 >以下为部分项目展示 
 
-## 2022 ~ 2023 小箱单智造·Min Work
+## 2022 ~ 2024 小箱单智造·Min Work
 
 <img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/project/006.png"/><br>
 
@@ -31,26 +31,31 @@ categories:
 
 ### 技术栈选型
 
-web端使用Vue + antDV,小程序考虑到初代产品的销售推广和性能使用微信原生语言开发。
+Vue3 + Vue-Router + Pina + Vite + Vitest + AntDv / 微信原⽣⼩程序
 
 ### 难点和亮点
 
-1. 产品用户年纪大部分是四五十岁的人群，手机自带的数字输入键盘太小，自定义封装了计算器键盘全局使用，并针对需求切换是否为小数点键盘，且需要考虑到有的表单是否携带默认值和自定义校验；
-2. 针对箱子上的二维码，在管理端使用qrcode生态库配置对应的信息二维码展示字段，使用html2canvas实现预览功能；调取打印机打印二维码；小程序基于原生camera封装了扫码组件，可以扫取web端生成的二维码，自动填入箱单信息，存入扫描记录；
-   
-<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/project/008.jpg"/><br>
+**【12个业务组件封装】**
+ 
+- 自定义键盘组件：用户年龄定位四五十岁，手机默认的数字输入键盘太小，自定义封装了大号计算器键盘全局使用，并针对需求切换是否为小数点键盘，且需要考虑到有的表单是否携带默认值和自定义校验；
+- 扫码组件：针对箱子上的二维码，在管理端使用qrcode生态库配置对应的信息二维码展示字段，使用html2canvas实现预览功能；调取打印机打印二维码；小程序基于原生camera封装了扫码组件，可以扫取web端生成的二维码，自动填入箱单信息，存入扫描记录；
+- 还有各类表格组件、标签组件、底部状态栏等通用公共组件，提高了团队开发效率。
 
-3. web端自定义配置页面的拖拽点击自定义选项，渲染表单，web端页面成功了；项目后期要求把配置好的页面推送到小程序页面去，后面也有自己试过用bpmn-js-properties-Panel生态库渲染一个表单，导出xml给后端，但没有找到xml转化成微信小程序原生模板的方法，还没实现就over了。
+  <img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/project/008.jpg"/><br>
 
-<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/project/012.png"/><br>
+**【接近 lowCode 的实践】**
 
-### 业务效果
+- web端自定义配置页面的拖拽点击自定义选项，渲染表单，web端页面成功了；项目后期要求把配置好的页面推送到小程序页面去，自己试过用bpmn-js-properties-Panel 生态库渲染一个表单，导出 xml 给后端，**接近 lowCode 实践**<span style="font-size:13px">（通过拖拽方式 渲染页面 组件库 如何存起来 如何渲染，针对这个我会总结一篇文章）。</span>
 
-业务经历一年，参与了从零到一构建开发部署的过程，虽然最后项目组被砍，但认识了一群好伙伴，一起开发提测，有刚参与时的忐忑雄心，结束时的失落突然，好像一场梦。
+  <img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/project/012.png"/><br>
 
-但也算在工业智造领域中贡献出一份小小的尝试和力量吧，愿离散制造业不再离散。
+**【从0~1的实践】**
 
-<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/memories/001.jpg"/><br>
+- 项目从 2022.10 开始，从**人员的招聘，用户体验调研，团队内部工程化落地，从零到一的技术搭建，后期用户体验的优化（性能优化），项目实地部署（稳定性治理）**。这也是我职业生涯中**第一次**深刻理解到，一个互联网产品的诞生与成长。
+
+  <img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/memories/001.jpg"/><br> 
+  <span style="font-size:12px">&nbsp; 没有到齐的吗喽合影&nbsp;</span>
+  <img src="https://bbs.vsread.com/bbsuploadimg/2021-11-04/20211104060550_90788.gif" style="width:15%;display:inline-block;"/>
 
 ## 2021 ~ 2022
 
@@ -61,36 +66,35 @@ web端使用Vue + antDV,小程序考虑到初代产品的销售推广和性能�
 尤大大在 vue3.0 beta 直播中推荐了 vite 工具，强调是针对 vue 单页面组件的无打包开发服务器，快速冷启动服务器、即时热模块更换（HMR）
 、真正的按需编译。很新颖，我决定用它来搭建一个 vue3 项目。
 
-1. 使用 vite 搭建项目；`npm init vite-app`<br>
-2. 安装 typescript、vue-router@next、axios、eslint-plugin-vue、sass 等相关插件；<br>
-3. 详情可参考本博客文章——《记录 vite+ts 快速搭建 vue3 项目》
+- 使用 vite 搭建项目；`npm init vite-app`<br>
+- 安装 typescript、vue-router@next、axios、sass 等相关插件；<br>
+- eslint + stylelint + commitlint + husky 前端工程化规范的实践；
+- 并封装了部分公共组件
 
-并封装了部分公共组件
-<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/project/002.png"/><br>
+  <img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/project/002.png"/><br>
 
-### vue2.0+elementUI+webpack 刷脸测温签到大屏
-
-<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/project/014.png"/><br>
+### Vue2 + Vuex + webpack + echarts + Cypress 测温大屏一体机
 
 本项目是针对疫情期间，刷脸识别访客体温是否异常展示的数据大屏需求。
 
-与公司项目组的算法工程师、后端开发工程师联合开发，我觉得比较有意思的地方是接口联调，加入了算法接口；另外大屏的数据展示也需要前端开发对浏览器性能的优化+可视化图形转化能力。
+<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/project/014.png"/><br>
 
-对于前端工程师来说，数据可视化也是非常重要的能力。推荐《The Grammar of Graphics》，⼀套⽤来描述所有统计图形深层特性的语法规则，该语法回答了『什么是统 计图形』这⼀问题，以⾃底向上的⽅式组织最基本的元素形成更⾼级的元素。
+- 与公司项目组的算法工程师、后端开发工程师联合开发，我觉得比较有意思的地方是接口联调，加入了算法接口；另外大屏的数据展示也需要前端开发对浏览器性能的优化+可视化图形转化能力。
+- 对于前端工程师来说，数据可视化也是非常重要的能力。推荐[《The Grammar of Graphics》](https://www.jianshu.com/nb/40128468)，⼀套⽤来描述所有统计图形深层特性的语法规则，该语法回答了『什么是统 计图形』这⼀问题，以⾃底向上的⽅式组织最基本的元素形成更⾼级的元素。
 
-### 安卓平板
+### 跨端开发的【安卓平板】
 
 <img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/project/016.png"/><br>
 
 安卓平板是一个 app 项目，新奇的点在于我的工作都是 web 开发，app 对我来说是一个挑战。
 此项目使用的更适用于 uni-app 的 HbuilderX，再使用 Android Studio 编辑打包 app 外壳，用数据线连接手机就可以安装 app 了。
 
-### web 网站
+### 国际网站开发
 
 <img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/project/015.png"/><br>
 
-此项目是采用 wordpress 前后端一体的方法，当时有和产品讨论用 vuepress 技术，但由于面向海外市场，后期方便功能性维护，插件更丰富的 wordpress 更合适。
-前端开发使用的是原生三剑客——html+css+javascript。
+此项目是采用 wordpress 前后端一体的方法，当时有和产品讨论用 vuepress 技术，但由于面向海外市场，后期方便功能性维护，插件更丰富的 wordpress 更合适，
+前端开发使用的是原生三剑客——html+css+javascript。设计师是一个澳大利亚人，很有趣，感谢他会说中文。
 
 ### cocoscreator2D+Typescript 小游戏
 
