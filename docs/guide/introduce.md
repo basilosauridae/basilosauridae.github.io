@@ -45,13 +45,13 @@ Vue3 + Vue-Router + Pina + Vite + Vitest + AntDv / 微信原⽣⼩程序
 
 **【接近 lowCode 的实践】**
 
-- web端自定义配置页面的拖拽点击自定义选项，渲染表单，web端页面成功了；项目后期要求把配置好的页面推送到小程序页面去，自己试过用bpmn-js-properties-Panel 生态库渲染一个表单，导出 xml 给后端，**接近 lowCode 实践**<span style="font-size:13px">（通过拖拽方式 渲染页面 组件库 如何存起来 如何渲染，针对这个我会总结一篇文章）。</span>
+- web端自定义配置页面的拖拽点击自定义选项，渲染表单，并把配置好的页面展示在小程序页面中，是一次**接近 lowCode 实践**<span style="font-size:13px">（通过拖拽方式 渲染页面 组件库 如何存起来 如何渲染，针对这个我会总结一篇文章）。</span>
 
   <img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/project/012.png"/><br>
 
 **【从0~1的实践】**
 
-- 项目从 2022.10 开始，从**人员的招聘，用户体验调研，团队内部工程化落地，从零到一的技术搭建，后期用户体验的优化（性能优化），项目实地部署（稳定性治理）**。这也是我职业生涯中**第一次**深刻理解到，一个互联网产品的诞生与成长。
+- 项目从 2022.10 开始，从**人员的招聘，业务技术调研，团队内部工程化落地，从零到一的技术搭建，后期用户体验的优化（性能优化），项目实地部署（稳定性治理）**。这也是我职业生涯中**第一次**深刻理解到，一个互联网产品的诞生与成长。
 
   <img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/memories/001.jpg"/><br> 
   <span style="font-size:12px">&nbsp; 没有到齐的吗喽合影&nbsp;</span>
@@ -68,8 +68,8 @@ Vue3 + Vue-Router + Pina + Vite + Vitest + AntDv / 微信原⽣⼩程序
 
 - 使用 vite 搭建项目；`npm init vite-app`<br>
 - 安装 typescript、vue-router@next、axios、sass 等相关插件；<br>
-- eslint + stylelint + commitlint + husky 前端工程化规范的实践；
-- 并封装了部分公共组件
+- eslint + stylelint + commitlint + husky **前端编码规范工程化**的实践；
+- 并封装了通用组件：
 
   <img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/project/002.png"/><br>
 
