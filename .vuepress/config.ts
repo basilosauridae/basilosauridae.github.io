@@ -3,7 +3,7 @@ import recoTheme from 'vuepress-theme-reco'
 import { plugins } from './config/index'
 
 export default defineUserConfig({
-  title: "Ying's Blog🥴",
+  title: "Ying's Blog🍗",
   description: 'Just playing around',
   theme: recoTheme({
     style: '@vuepress-reco/style-default',

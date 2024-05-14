@@ -13,8 +13,8 @@ img{
 }
 @keyframes changeBg{
   0%{
-    /* background-image: url('https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/others/bg1.gif'); */
-    background-image: url('https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/others/bg.jpg');
+    background-image: url('https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/others/bg1.gif');
+    /* background-image: url('https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/others/bg.jpg'); */
   }
   33%{
     background-image: url('https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/others/bg2.jpg');
