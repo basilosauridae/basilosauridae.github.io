@@ -4,16 +4,14 @@ date: 2022/06/08
 tags:
    - 日常
 categories:
-   - 总结
+  - 总结
 ---
 
-::: info
-
-1. 花花是一只猫，此篇以第一人称讲述;
-2. 此篇博文实际是花花口述 略懂喵语的影大宝记录。
-   :::
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2090470651&auto=1&height=66"></iframe>
 
 <flowerCat/>
+
+## 小囡花花
 
 ### 本喵出生之时，夏末初秋。
 

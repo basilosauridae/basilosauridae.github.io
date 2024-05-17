@@ -4,6 +4,14 @@ body{
 img{
   border-radius: 0.2rem;
 }
+/* 文档顶部说明卡片 */
+.bannertop{
+  background: #eff0fc;
+  box-shadow:0px 0px 8px 6px rgba(199, 197, 197, 0.8);
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+}
 /* 首页背景图自动切换 */
 .banner-brand-wrapper{
   background-size: 100% 100%;

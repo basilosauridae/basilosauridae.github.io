@@ -1,1 +1,0 @@
-import{_ as a,o as c,c as _,a3 as s,a4 as o,b as t}from"./app.ffe87653.js";const d={},r=e=>(s("data-v-aef42f64"),e=e(),o(),e),i={class:"bg"},n=r(()=>t("div",{class:"card"}," Magic Card ",-1)),p=[n];function f(e,l){return c(),_("div",i,p)}var u=a(d,[["render",f],["__scopeId","data-v-aef42f64"],["__file","magicCard.vue"]]);export{u as default};

@@ -1,24 +1,13 @@
 <style scoped lang="scss">
 .container{
   cursor: pointer;
-  background: #eff0fc;
-  border: 1px solid #616ae5;
-  border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 15px;
+  transform: scale(0.98);
   span{
     font-size: 20px;
     font-weight: 700;
     display: inline-block;
     padding: 5px;
   }
-}
-.container:hover{
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2),
-    0px 0px 0px rgba(255, 255, 255, 0.8),
-    inset 2px 2px 6px rgba(0, 0, 0, 0.2),
-    inset -2px -2px 6px rgba(255, 255, 255, 0.8);
-  transform: translateY(10px) scale(0.98);
 }
 .top_item{
   display: flex;
@@ -55,7 +44,7 @@
 </style>
 
 <template>
-  <div class="container">
+  <div class="bannertop container">
     <div class="top_item">
       <div class="top_item_left">
         <img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/cat/avator.png" alt="花花头像">
@@ -64,7 +53,8 @@
         一只出生于
         <span class="text1">初夏</span>的
         <span class="text2">巨蟹座</span>的
-        <span class="text3">橘猫</span>
+        <span class="text3">橘猫</span>。
+        <b style="font-size:12px">花花是一只猫，此篇以第一人称讲述;此篇博文实际是花花口述 略懂喵语的影大宝记录。</b>
       </div>
     </div>
     <div class="center_item">
