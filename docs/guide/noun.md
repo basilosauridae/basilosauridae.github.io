@@ -6,6 +6,13 @@ tags:
 categories:
   - 总结
 ---
+### 2^53
+
+> 涉及知识点：为什么0.1+0.2!=0.3? JS的最大安全整数？BigInt的使用场景？
+
+- JS的number类型储存方式采用[IEEE 754](https://baike.baidu.com/item/IEEE%20754/3869922?fr=ge_ala)中双精度64位。数字先转化成二进制，再转化成科学计数法，到最后一个有效尾数停止。在此过程中，0.1和0.2会损失精度，故0.1+0.2!=0.3；
+- JS的最大安全整数 `2^53 - 1`，在IEEE 754双精度64位标准下，无法精准地将非常大的整数四舍五入。确切的说，JS只能安全的表示`-(2^53 - 1)~(2^53 - 1)`之间的整数，超出此范围使用BigInt.
+
 ### XSS & CSRF
 
 - XSS(Cross-site Scripting)跨站脚本，CSRF(Cross-site request Forgery)跨站请求伪造；
