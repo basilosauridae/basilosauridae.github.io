@@ -1,6 +1,6 @@
 ---
 title: 保持对这个世界的好奇心
-date: 2024/05/03
+date: 2024/08/16
 tags:
   - 日常
 categories:
