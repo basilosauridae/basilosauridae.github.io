@@ -6,6 +6,11 @@ tags:
 categories:
   - 总结
 ---
+
+### upstream failed to respond
+
+启动掘金插件时，跳转网页提示'upstream failed to respond',查询得知此提示为客户端尝试与上游服务器(upstream)通信时后者未响应。upstream可能是负载均衡器后面的一个或多个服务器实例，或提供特定服务的另一个程序。
+
 ### 2^53
 
 > 涉及知识点：为什么0.1+0.2!=0.3? JS的最大安全整数？BigInt的使用场景？
