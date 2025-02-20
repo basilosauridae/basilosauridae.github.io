@@ -1,17 +1,17 @@
 ---
 title: 花花是一只猫
-date: 2022/06/08
+date: 2025/02/20
 tags:
    - 日常
 categories:
   - 总结
 ---
    
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2090470651&auto=1&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1969479264&auto=1&height=66"></iframe>
 
 <flowerCat/>
 
-## 小囡花花
+## 小囡花花（2021年）
 
 ### 本喵出生之时，夏末初秋。
 
@@ -48,7 +48,7 @@ categories:
 <img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/cat/psc.jpg"><br>
 2021年结束了。
 
-## 本喵又来更新了。
+## 初出茅庐（2022-2024年）
 
 <img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/cat/20240410171721.jpg"><br>
 2022年秋，拍摄于上海 华漕，影大宝搬家了。斯是陋室，惟吾德馨。
@@ -75,5 +75,33 @@ categories:
 <img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/cat/20240410174759.jpg"><br>
 
 2024年春，影大宝忙得不见人影，其友雷雷美女相伴于夕阳下。
+
+### 一叶障目，管中窥猫。
+
+2024年春末，影大宝常常觉得本喵非猫，神似人形，吾心甚鄙。岂诸般物种，必类人，方为雄哉？人类骄矜自大，岂可视神喵之尊，因一叶而蔽目乎？本喵就是本喵，独一无二的存在。
+
+以下是大宝犟嘴的佐证：
+
+<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/cat/20250220163108.jpg"><br>
+
+### 又逢盛夏，热的本喵嗷嗷嗷嗷嗷叫。
+
+2024年夏，沪上之暑气盛矣，热至汗流浃背。吾喵身裹貂裘，于炎夏之际，实苦不堪言。
+ 
+<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/cat/20250220172306.jpg"><br>
+
+### 金秋，影大宝生日。
+
+2024年秋，敬祝主上，身健体泰，诸般顺遂，平安永伴。（好吧好吧，“主上“是影大宝自己写的，吾岂认影大宝为主？彼不过常伴吾侧而已。）
+
+<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/cat/20250220173953.jpg"><br>
+
+## 祥蛇瑞年（2025年）
+
+### 初春，人类社会幻术盛行。
+
+听闻影大宝与友人讨论deepseek、豆包、chatGPT等此诸般幻术，与吾近亲狸猫一族之术法极为相似。影大宝常施此诸般幻术于吾身，令吾之静态图像栩栩而动。
+
+<video src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/cat/WeChat_20250220175527.mp4" autoplay="false" controls="controls" width="600" />
 
 未完待续 》》》
