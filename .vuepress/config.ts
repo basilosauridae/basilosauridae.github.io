@@ -43,9 +43,9 @@ export default defineUserConfig({
           { text:'阮一峰的网络日志',link:'https://www.ruanyifeng.com/blog/' },
           { text:"7gugu's Blog",link:'https://7gugu.com/' },
           { text:'❖星港◎Star☆',link:'https://blog.starsharbor.com/' },
-          { text:'booop的小站',link:'https://booop.net/' },
           { text:'HsuYeung的博客',link:'https://www.hsuyeung.com/' },
-          { text:'阿豪博客',link:'https://nolanblog.top/' }
+          { text:'BricRoot的博客',link:'https://bricawa.com/links/' },
+          { text:'liushen的博客',link:'https://blog.liushen.fun/addlink/' },
         ]
       },
       { text: 'Tags', link: '/tags/vue/1' },
