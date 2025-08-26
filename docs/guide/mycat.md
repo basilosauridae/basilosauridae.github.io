@@ -1,6 +1,6 @@
 ---
 title: 花花是一只猫
-date: 2025/02/20
+date: 2025/06/21
 tags:
    - 日常
 categories:
@@ -17,7 +17,13 @@ categories:
 
 听闻影大宝与友人讨论deepseek、豆包、chatGPT等此诸般幻术，与吾近亲狸猫一族之术法极为相似。影大宝常施此诸般幻术于吾身，令吾之静态图像栩栩而动。
 
-<video src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/cat/WeChat_20250220175527.mp4" muted controls="controls" width="600" />
+<video src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/cat/WeChat_20250220175527.mp4" muted controls="controls" width="600" /><br>
+
+### 夏至，抖音（人类娱乐魔盒）惊现猫咪会说人话现象。
+
+影大宝乐于让猫说人话，人说喵话。想来人类真奇怪，吃猪肉不能有猪🐖味，鸡肉不能有鸡🐓味，冰淇淋做成桃子的形状更贵，女生不仅要甜还要酷，男生要介于少年和男人之间的慌张青涩最是可爱（挠头）...算了，妈咪说我是猪那就是猪吧。
+
+<video src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/cat/WeChat_20250624190136.mp4" muted controls="controls" width="350" />
 
 未完待续...
 
@@ -47,7 +53,7 @@ categories:
 
 <img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/cat/20240410174759.jpg"><br>
 
-2024年春，影大宝忙得不见人影，其友雷雷美女相伴于夕阳下。
+2024年春，影大宝忙得不见人影，留守儿童于夕阳下。
 
 ### 一叶障目，管中窥猫。
 

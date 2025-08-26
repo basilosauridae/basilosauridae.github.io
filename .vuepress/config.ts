@@ -44,8 +44,8 @@ export default defineUserConfig({
           { text:"7gugu's Blog",link:'https://7gugu.com/' },
           { text:'❖星港◎Star☆',link:'https://blog.starsharbor.com/' },
           { text:'HsuYeung的博客',link:'https://www.hsuyeung.com/' },
-          { text:'BricRoot的博客',link:'https://bricawa.com/links/' },
-          { text:'liushen的博客',link:'https://blog.liushen.fun/addlink/' },
+          { text:'BricRoot的博客',link:'https://bricawa.com/' },
+          { text:'liushen的博客',link:'https://blog.liushen.fun/' },
         ]
       },
       { text: 'Tags', link: '/tags/vue/1' },
