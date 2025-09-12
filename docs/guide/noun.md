@@ -1,11 +1,60 @@
 ---
 title: 开发文档中的英文
-date: 2023/10/05
+date: 2025/09/01
 tags:
   - 日常
 categories:
   - 总结
 ---
+### TCO
+
+Tail Call Optimization 尾调用优化，一种特殊的递归，一个函数的最后一步操作仅仅是调用另一个函数，并在返回后不做任何其他的计算。
+```js
+// 非尾调用递归（普通递归） - 无法优化
+function factorial(n) {
+  if (n <= 1) {
+    return 1;
+  }
+  // 错误！最后一步操作是乘法，而不是直接返回函数调用。
+  return n * factorial(n - 1);
+}
+// 将函数改写成尾调用形式
+function factorial(n, total = 1) {
+  if (n <= 1) {
+    return total;
+  }
+  // 正确！最后一步操作仅仅是调用自身，并直接返回其结果。
+  return factorial(n - 1, n * total);
+}
+```
+尽管 TCO 在 ES6 (ES2015) 中被写入规范，ES6 规范中的 TCO 目前处于一种“被放弃的规范”状态。开发者不应在跨浏览器代码中依赖它。主流浏览器不支持/不启用 TCO，因为**primarily due to 糟糕的调试体验**。其带来的益处（解决深递归问题）远不及它给开发者带来的麻烦（无法调试）。Web 生态认为鼓励良好的代码设计（使用循环）比引入一个带来副作用的优化特性更重要。
+
+💘替代方案：
+
+**迭代（循环）**：始终是最可靠、性能最好、最安全的选择。将递归算法用 for 或 while 循环重写。
+
+**蹦床函数（Trampolines）**：一种在不支持 TCO 的环境中模拟尾递归优化的技术。它将递归调用转换为一个循环，每次循环返回下一个要执行的函数，而不是直接调用:
+```js
+// 一个简单的蹦床实现示例
+function trampoline(fn) {
+  return function(...args) {
+    let result = fn(...args);
+    while (typeof result === 'function') {
+      result = result();
+    }
+    return result;
+  };
+}
+
+// 使用方式：将递归函数改写为返回函数的形式
+const factorial = trampoline(function f(n, total = 1) {
+  if (n <= 1) return total;
+  // 返回一个函数，而不是直接递归调用
+  return () => f(n - 1, n * total);
+});
+
+console.log(factorial(5)); // 120，不会栈溢出
+```
 
 ### upstream failed to respond
 
