@@ -6,18 +6,18 @@ tags:
 categories:
   - 总结
 ---
-   
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1969479264&auto=1&height=66"></iframe>
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=110 src="//music.163.com/outchain/player?type=0&id=13439065027&auto=1&height=90"></iframe>
 
 <flowerCat/>
 
 ## 祥蛇瑞年（2025年）
 
-### 初春，人类社会幻术盛行。
+### 初冬，圣诞咪盼新春
 
-听闻影大宝与友人讨论deepseek、豆包、chatGPT等此诸般幻术，与吾近亲狸猫一族之术法极为相似。影大宝常施此诸般幻术于吾身，令吾之静态图像栩栩而动。
+<img src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/cat/cat7.jpg"><br>
 
-<video src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/cat/WeChat_20250220175527.mp4" muted controls="controls" width="600" /><br>
+影大宝看本咪喜欢窝在有太阳的阳台，圣诞节将至，给我置办了喜庆的猫窝，本咪很是喜欢。本咪不理解，人类总会搞一些莫名其妙的节日用来庆祝，事实上也不知庆祝什么。但无所谓，This is what christmas feels like...as long as I have you here with me.🕯️🎄❤️
 
 ### 夏至，抖音（人类娱乐魔盒）惊现猫咪会说人话现象。
 
@@ -25,7 +25,11 @@ categories:
 
 <video src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/cat/WeChat_20250624190136.mp4" muted controls="controls" width="350" />
 
-未完待续...
+### 初春，人类社会幻术盛行。
+
+听闻影大宝与友人讨论deepseek、豆包、chatGPT等此诸般幻术，与吾近亲狸猫一族之术法极为相似。影大宝常施此诸般幻术于吾身，令吾之静态图像栩栩而动。
+
+<video src="https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/cat/WeChat_20250220175527.mp4" muted controls="controls" width="600" /><br>
 
 ## 初出茅庐（2022-2024年）
 
