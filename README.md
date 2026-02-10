@@ -14,7 +14,7 @@ bannerBrand:
     borderRadius: '1rem'
   # bgImage: '/bg.jpg'
   heroText: I'm { Ying }
-  tagline: You have to be a new person before you can solve old problems.你必须是一个新的人，你才能去解决旧的问题。
+  tagline:  Create art and beauty on a computer!—《黑客与画家》
   buttons:
     - { text: About Me, link: '/docs/guide/introduce' }
     # - {
