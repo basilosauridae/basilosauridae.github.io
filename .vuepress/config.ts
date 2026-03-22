@@ -28,8 +28,8 @@ export default defineUserConfig({
       ],
       "/docs/css3/": [
         {
-          text: "colorful",
-          children: ["magic","whirligig","shadow","reset","colorful"],
+          text: "fabrique",
+          children: ["whirligig","magic","shadow","reset","colorful"],
         }
       ]
     },
@@ -39,7 +39,7 @@ export default defineUserConfig({
         text: "Docs",
         children: [
           { text: "vue", link: "/docs/vue/advanced" },
-          { text: "visual", link: "/docs/css3/colorful.md" },
+          { text: "visual", link: "/docs/css3/whirligig.md" },
         ],
       },
       { text: "Timeline", link: "/timeline" },
@@ -75,6 +75,16 @@ export default defineUserConfig({
         title:"Arthals' ink",
         logo:"https://cdn.arthals.ink/Arthals.png",
         link:"https://arthals.ink/"
+      },
+      {
+        title:"微霞",
+        logo:"https://cdn.yuuu.org/img/avatar.webp",
+        link:"水风清，晚霞明"
+      },
+      {
+        title:"Xuan's blog",
+        link:"https://blog.ybyq.wang/",
+        logo:"https://blog.ybyq.wang/usr/themes/handsome/assets/img/avatar.png"
       }
     ],
     // commentConfig: {
