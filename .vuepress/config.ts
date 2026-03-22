@@ -79,12 +79,17 @@ export default defineUserConfig({
       {
         title:"微霞",
         logo:"https://cdn.yuuu.org/img/avatar.webp",
-        link:"水风清，晚霞明"
+        link:"https://yuuu.org/"
       },
       {
         title:"Xuan's blog",
         link:"https://blog.ybyq.wang/",
         logo:"https://blog.ybyq.wang/usr/themes/handsome/assets/img/avatar.png"
+      },
+      {
+        title:"Mofei",
+        link:"https://www.mofei.life",
+        logo:"https://www.mofei.life/img/mofei-logo_500_500.png"
       }
     ],
     // commentConfig: {
