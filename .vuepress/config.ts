@@ -1,65 +1,93 @@
-import { defineUserConfig } from 'vuepress'
-import recoTheme from 'vuepress-theme-reco'
-import { plugins } from './config/index'
+import { defineUserConfig } from "vuepress";
+import recoTheme from "vuepress-theme-reco";
+import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
-  title: "Ying's Blog🍗",
-  description: 'Just playing around',
+  title: "Yingineer",
+  description: "Just playing around",
+  bundler: viteBundler(),
   theme: recoTheme({
-    style: '@vuepress-reco/style-default',
-    colorMode: 'light', // dark, light
-    logo: '/logo.png',
-    author: '影大宝🧐',
-    docsRepo: 'https://github.com/vuepress-reco/vuepress-theme-reco-next',
-    docsBranch: 'main',
-    docsDir: 'example',
-    autoSetSeries: true,
-    lastUpdatedText: '',
+    logo: "/favicon.ico",
+    author: "Ying",
+    authorAvatar: "/avatar.png",
+    primaryColor: 'mediumpurple',
+    colorMode: 'dark',
+    docsRepo: "https://github.com/basilosauridae",
+    docsBranch: "main",
+    docsDir: '/blogs',
     series: {
-      '/docs/theme/': [
+      "/docs/vue/": [
         {
-          text: 'CSS',
-          children: ['magic','colorful','reset', 'shadow','whirligig']
+          text: "vue2",
+          children: ["advanced", "vue2-qa"],
+        },
+        {
+          text: "vue3",
+          children: ["router", "vue3-features"],
         },
       ],
-      '/docs/guide/': [
+      "/docs/css3/": [
         {
-          text:'Memories',
-          children:['introduce','mycat','standard','books','noun','thingy']
-        }
-      ],
-      '/docs/vue/':[
-        {
-          text:'Vue',
-          children:['vue2application','vue2principle','advancedUsage','Vue3new','vueState','vueRouter']
+          text: "colorful",
+          children: ["magic","whirligig","shadow","reset","colorful"],
         }
       ]
     },
-    navbar:
-    [
+    navbar: [
+      { text: "Home", link: "/" },
       {
-        text: '友情链接💌🐾',
+        text: "Docs",
         children: [
-          { text:'阮一峰的网络日志',link:'https://www.ruanyifeng.com/blog/' },
-          { text:"7gugu's Blog",link:'https://7gugu.com/' },
-          { text:'❖星港◎Star☆',link:'https://blog.starsharbor.com/' },
-          { text:'HsuYeung的博客',link:'https://www.hsuyeung.com/' },
-          { text:'BricRoot的博客',link:'https://bricawa.com/' },
-          { text:'liushen的博客',link:'https://blog.liushen.fun/' },
-        ]
+          { text: "vue", link: "/docs/vue/advanced" },
+          { text: "visual", link: "/docs/css3/colorful.md" },
+        ],
       },
-      { text: 'Tags', link: '/tags/vue/1' },
-      {
-        text: 'Contact Me',
-        children: [
-          { text:'语雀',link:'https://www.yuque.com/lumang-40tj6' },
-          { text:'知乎',link:'https://www.zhihu.com/people/ying-zi-74-41' },
-          { text:'github',link:'https://github.com/Basilosauridae' },
-          { text:'邮箱lumang7520@126.com',link:'https://mail.126.com/' }
-        ]
-      },
-      { text: 'Home', link: '/'}
+      { text: "Timeline", link: "/timeline" },
+      { text: "Links", link: "/friendship-link" },
     ],
-    plugins:plugins
+    friendshipLinks: [
+      {
+        title: "阮一峰的网络日志",
+        logo: "https://www.ruanyifeng.com/blog/images/person2.jpg",
+        link: "https://www.ruanyifeng.com/blog/"
+      },
+      {
+        title:"7gugu's Blog",
+        logo:"https://secure.gravatar.com/avatar/966060e7357fb72c68c54b346a12978f75baeee861aaefecccb5eb124a58ad2a?s=42&r=g",
+        link:"https://7gugu.com/"
+      },
+      {
+        title:"❖星港◎Star☆",
+        logo:"https://bu.dusays.com/2025/04/11/67f92f6fcfb26.webp",
+        link:"https://blog.starsharbor.com/"
+      },
+      {
+        title:"Hsu Yeung 的博客",
+        logo:"https://www.hsuyeung.com/img/avatar.jpg",
+        link:"https://www.hsuyeung.com/"
+      },
+      {
+        title:"清羽飞扬",
+        logo:"https://blog.liushen.fun/info/avatar.ico",
+        link:"https://blog.liushen.fun/"
+      },
+      {
+        title:"Arthals' ink",
+        logo:"https://cdn.arthals.ink/Arthals.png",
+        link:"https://arthals.ink/"
+      }
+    ],
+    // commentConfig: {
+    //   type: "valine",
+    //   options: {
+    //     appId: "Q6hMeY2PSaM9FMkXetzoJoU5-gzGzoHsz",
+    //     appKey: "iLQlev5jo2Cm5pLcI0z3qhtr",
+    //     placeholder: "填写邮箱可以收到回复提醒哦！",
+    //     verify: true, // 验证码服务
+    //     // notify: true, //
+    //     recordIP: true,
+    //     // hideComments: true
+    //   },
+    // },
   }),
-})
+});

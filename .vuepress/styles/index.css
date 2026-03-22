@@ -1,10 +1,4 @@
-body{
-  font-weight: 500;
-}
-img{
-  border-radius: 0.2rem;
-}
-/* 文档顶部说明卡片 */
+/* 全局文档顶部说明卡片 */
 .bannertop{
   background: #eff0fc;
   box-shadow:0px 0px 8px 6px rgba(199, 197, 197, 0.8);
@@ -12,176 +6,32 @@ img{
   padding: 10px 20px;
   margin-bottom: 15px;
 }
+.dark .bannertop{
+  background: rgba(82, 82, 89, .32);
+  box-shadow:0px 0px 1px 1px mediumpurple;
+  /* 和config.ts的primaryColor风格保持一致 */
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+}
 /* 首页背景图自动切换 */
-.banner-brand-wrapper{
+.banner-brand__wrapper{
   background-size: 100% 100%;
   background-position: center center;
   overflow: hidden;
-  animation: changeBg 42s infinite;
+  animation: changeBg 21s infinite;
 }
 @keyframes changeBg{
   0%{
     background-image: url('https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/others/bg1.gif');
   }
-  33%{
+  100%{
     background-image: url('https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/others/bg2.jpg');
   }
-  66%{
+  /* 66%{
     background-image: url('https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/others/bg3.jpg');
   }
   100%{
     background-image: url('https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/others/bg5.png');
-  }
-}
-/* 首页按钮颜色自动切换 */
-.banner-brand-wrapper .hero-content .hero-text .btn-group li .icon-container{
-  color: #fff;
-  border: transparent;
-  cursor: pointer;
-  animation: changeBtn 42s infinite;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2),
-    -1px -1px 10px rgba(255, 255, 255, 0.8),
-    inset 0px 0px 0px rgba(0, 0, 0, 0.2),
-    inset 0px 0px 0px rgba(255, 255, 255, 0.8);
-  transition: 0.2s;
-}
-/* 模拟ios网页按钮点击效果 */
-.banner-brand-wrapper .hero-content .hero-text .btn-group li .icon-container:hover{
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2),
-    0px 0px 0px rgba(255, 255, 255, 0.8),
-    inset 2px 2px 6px rgba(0, 0, 0, 0.2),
-    inset -2px -2px 6px rgba(255, 255, 255, 0.8);
-  transform: translateY(10px) scale(0.98);
-}
-@keyframes changeBtn{
-  0%{
-    background-color: #6566e0;
-  }
-  35%{
-    background-color: #aa4a2d;
-  }
-  70%{
-    background-color: #06abc4;
-  }
-  100%{
-    background-color: #ffc0c9;
-  }
-}
-/* 公共动画 */
-@property --rotate {
-  syntax: "<angle>";
-  initial-value: 132deg;
-  inherits: true;
-}
-/* 首页背景色,避免切换日夜模式时卡片突兀 */
-.home-wrapper{
-  background: #22272e;
-  position: absolute;
-  z-index: -99;
-}
-
-/* 首页标题 */
-.home-wrapper .banner-brand-wrapper .hero-content .hero-text{
-	background: repeating-conic-gradient(#5D67E8 10deg,#ef4444 20deg,#fff 55deg); 
-	-webkit-background-clip: text; 
-	background-clip: text; 
-	color: transparent; 
-}
-
-/* 主页右侧卡片 */
-.home-blog-content .info-wrapper{
-  border: transparent;
-  background: #191c29;
-  div,h4,a{
-    color: #fff;
-  }
-  .category-wrapper .category-item .category-link{
-    .text,.num{
-      color: #fff;
-    }
-  }
-  hr{
-    display: none;
-  }
-  .tag-wrapper .tag-item{
-    width: 100%;
-    padding: 0.5rem;
-  }
-}
-.dark .home-blog-content .info-wrapper{
-  background: #191c29;
-}
-
-/* 主页左侧卡片 */
-.home-blog-content .blog-list .post-list-container{
-  display: flex;
-  justify-content:flex-start;
-  flex-wrap:wrap;
-  .post-item-container{
-    a{
-      color: #fff;
-    }
-    background: #191c29;
-    cursor: pointer;
-    position: relative;
-    border-radius: 6px;
-    cursor: pointer;
-    border: transparent;
-  }
-  .post-item-container:hover {
-    a{
-      color: rgb(88 199 250 / 100%);
-    }
-    transition: color 1s;
-  }
-  .post-item-container:hover:before, .post-item-container:hover:after {
-    animation: none;
-    opacity: 0;
-  }
-  @keyframes spin {
-    0% {
-      --rotate: 0deg;
-    }
-    100% {
-      --rotate: 360deg;
-    }
-  }
-  .post-item-container::before {
-    content: "";
-    width: 102%;
-    height: 103%;
-    border-radius: 8px;
-    background-image: linear-gradient(
-      var(--rotate)
-      , #5ddcff, #3c67e3 43%, #4e00c2);
-      position: absolute;
-      z-index: -1;
-      top: -1%;
-      left: -1%;
-      animation: spin 2.5s linear infinite;
-  }
-  .post-item-container::after {
-    position: absolute;
-    content: "";
-    left: 0;
-    right: 0;
-    z-index: -1;
-    width: 100%;
-    margin: 0 auto;
-    transform: scale(0.8);
-    background-image: linear-gradient(
-      var(--rotate)
-      , #5ddcff, #3c67e3 43%, #4e00c2);
-      opacity: 1;
-    transition: opacity .9s;
-    animation: spin 2.5s linear infinite;
-  }
-}
-
-/* 首页底部 */
-.home-wrapper .footer-wrapper{
-  border-color:rgb(62 76 90 / var(--tw-border-opacity));
-  a{
-    color: #fff;
-  }
+  } */
 }

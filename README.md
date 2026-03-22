@@ -2,27 +2,15 @@
 home: true
 modules:
   - BannerBrand
-  # - MdContent
   - Blog
+  - Comment
   - Footer
 bannerBrand:
-  heroImageStyle:
-    maxWidth: '200px'
-    width: '100%'
-    display: block
-    margin: '0 auto 2rem'
-    borderRadius: '1rem'
-  # bgImage: '/bg.jpg'
-  heroText: I'm { Ying }
-  tagline:  Create art and beauty on a computer!—《黑客与画家》
+  title: I'm { Ying }
+  tagline: Create art and beauty on a computer! ——《黑客与画家》
   buttons:
-    - { text: About Me, link: '/docs/guide/introduce' }
-    # - {
-    #     text: Standard,
-    #     link: '/docs/guide/standard',
-    #     type: 'plain',
-    #   }
-isShowTitleInHome: true
-actionText: About
-actionLink: /views/other/about
+    - { text: Behind the Code, link: '/blogs/life/me' }
+    # - { text: Default Style, link: '/docs/style-default-api/introduce', type: 'plain' }
+  socialLinks:
+    - { icon: 'LogoGithub', link: 'https://github.com/basilosauridae' }
 ---

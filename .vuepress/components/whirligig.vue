@@ -192,12 +192,12 @@
         data() {
             return {
                 imgSrc: [
-                    "https://img0.baidu.com/it/u=1999089674,2295528422&fm=253&fmt=auto&app=138&f=JPEG?w=650&h=500",
-                    "https://img2.baidu.com/it/u=590553397,470691825&fm=253&fmt=auto&app=138&f=JPEG?w=650&h=500",
-                    "https://img1.baidu.com/it/u=1310668664,949184061&fm=253&fmt=auto&app=138&f=JPEG?w=650&h=500",
-                    "https://img0.baidu.com/it/u=1733583044,3174717576&fm=253&fmt=auto&app=120&f=JPEG?w=650&h=500",
-                    "https://img2.baidu.com/it/u=1909889665,1004291564&fm=253&fmt=auto&app=138&f=JPEG?w=650&h=500",
-                    "https://img0.baidu.com/it/u=3607050465,1921781155&fm=253&fmt=auto&app=138&f=JPEG?w=650&h=500"
+                    "https://pic.rmb.bdstatic.com/bjh/events/6d409a9b7c7765f4cb6e1119b57e837e5081.jpeg@h_1280",
+                    "https://imgs.aixifan.com/live/1494257074835/1494257074835.jpg",
+                    "https://img0.baidu.com/it/u=72721626,3246945748&fm=253&fmt=auto?w=1200&h=800",         
+                    "https://img1.baidu.com/it/u=3356893899,1877686423&fm=253&fmt=auto&app=138&f=JPEG?w=1025&h=577",         
+                    "https://img2.baidu.com/it/u=280525719,1125867201&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=500",         
+                    "https://img0.baidu.com/it/u=3701439623,3451296435&fm=253&fmt=auto&app=138&f=PNG?w=889&h=500",         
                 ]
             }
         }
