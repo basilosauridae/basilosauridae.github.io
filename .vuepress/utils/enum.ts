@@ -58,8 +58,6 @@ export const books = {
     {name:"妈妈,别怕",url:"https://cdn.weread.qq.com/weread/cover/6/cpplatform_ixpkfsknynd8jzr2m6jqdt/t6_cpplatform_ixpkfsknynd8jzr2m6jqdt1711463172.jpg",author:"全民故事计划主编"},
     {name:"平面国",url:"https://cdn.weread.qq.com/weread/cover/76/YueWen_33617657/t6_YueWen_33617657.jpg",author:"埃德温·艾勃特"},
     {name:"小城与不确定的墙",url:"https://cdn.weread.qq.com/weread/cover/23/cpplatform_qcspbfafhnmntghchpcsxk/t6_cpplatform_qcspbfafhnmntghchpcsxk1729066263.jpg",author:"村上春树"},
-    {name:"",url:"",author:""},
-    {name:"",url:"",author:""},
   ],
   2025:[
     {name:"你喜欢勃拉姆斯吗",url:"https://cdn.weread.qq.com/weread/cover/63/cpplatform_qxhbdmbebfinfdaueyebyx/t6_cpplatform_qxhbdmbebfinfdaueyebyx1748340713.jpg",author:"弗朗索瓦丝·萨冈"},
