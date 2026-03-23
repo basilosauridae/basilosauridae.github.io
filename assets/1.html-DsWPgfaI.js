@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as a}from"./app-DrgU-sLF.js";const c={};function o(r,s){return a(),e("div")}const l=t(c,[["render",o]]),_=JSON.parse('{"path":"/tags/css/1.html","title":"","lang":"en-US","frontmatter":{"layout":"Categories"},"headers":[],"git":{},"filePathRelative":null}');export{l as comp,_ as data};
