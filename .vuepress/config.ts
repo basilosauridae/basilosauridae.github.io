@@ -53,7 +53,7 @@ export default defineUserConfig({
       },
       {
         title:"7gugu's Blog",
-        logo:"https://secure.gravatar.com/avatar/966060e7357fb72c68c54b346a12978f75baeee861aaefecccb5eb124a58ad2a?s=42&r=g",
+        logo:"https://7gugu.com/wp-content/uploads/2018/01/favicon.png",
         link:"https://7gugu.com/"
       },
       {
@@ -90,6 +90,16 @@ export default defineUserConfig({
         title:"Mofei",
         link:"https://www.mofei.life",
         logo:"https://www.mofei.life/img/mofei-logo_500_500.png"
+      },
+      {
+        title:"小不的窝",
+        link:"https://blog.donotknow.top/",
+        logo:"https://s2.loli.net/2025/01/26/Q6WYTHDfPR2bCyg.jpg",
+      },
+      {
+        title: "THW's Blog",
+        link: "https://blog.tianhw.top",
+        logo: "https://image.tianhw.top/avatar.webp"
       }
     ],
     // commentConfig: {
