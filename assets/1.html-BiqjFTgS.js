@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./app-3s4SD1sc.js";const o={};function c(n,r){return a(),e("div")}const l=t(o,[["render",c]]),i=JSON.parse('{"path":"/tags/xiaochengxukaifa/1.html","title":"","lang":"en-US","frontmatter":{"layout":"Categories"},"headers":[],"git":{},"filePathRelative":null}');export{l as comp,i as data};
