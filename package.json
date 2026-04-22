@@ -8,7 +8,6 @@
   "scripts": {
     "dev": "vuepress dev .",
     "start": "vuepress dev .",
-    "postinstall": "npm run build",
     "build": "vuepress build ."
   },
   "dependencies": {
