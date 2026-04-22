@@ -266,7 +266,7 @@ app.use(createPinia())
 ```
 
 - 思路第2步：install方法中，app.provide方法提供了一个pinia全局对象；创建了scope和state并挂载到pinia身上📌
-  ![](https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/pieces/Snipaste_2024-03-06_23-14-55.jpg)
+  ![placeholder](https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/pieces/Snipaste_2024-03-06_23-14-55.jpg)
 
 - 思路第3步：看pinia的使用中，defineStore做了什么（pinia中state的实现）
 

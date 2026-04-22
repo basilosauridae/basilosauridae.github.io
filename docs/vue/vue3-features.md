@@ -165,7 +165,7 @@ onMounted(() => {
   2. reactive 返回一个对象的响应式代理，针对深层次遍历的
   3. 也可以通过 toRefs 将 reactive 转换成 ref 单个节点的响应式变化:
   
-  ![](https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/pieces/Snipaste_2024-03-1.jpg%20.png)
+  ![placeholder](https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/pieces/Snipaste_2024-03-1.jpg%20.png)
 
 - computed
 
@@ -270,7 +270,7 @@ watch(state3,()=>{//深层级变更状态所触发的回调})
 - Vue3中的`renderTracked`在VDom（初次渲染/更新）渲染时调用,作为性能追踪去使用。
 - `setup`，在 beforeCreate 和 created 前，因此一般在组合式 api 中使用它做一些前置处理。
 
-![](https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/pieces/Snipaste_2024-02-29_18-05-41.jpg)
+![placeholder](https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/pieces/Snipaste_2024-02-29_18-05-41.jpg)
 
 ```js
 //以下的type是告诉我们响应式的操作类型式get还是set

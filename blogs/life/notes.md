@@ -74,7 +74,7 @@ categories:
 
 最后，在发育与基因层面，是古老工具的再利用。这是进化生物学中最深刻的一点。虽然两者的结构在进化上独立产生，但**塑造它们的底层遗传和发育工具包却有古老的共同起源**。
 
-![](https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/pieces/Snipaste_2026-02-10_19-13-31.jpg)
+![placeholder](https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/pieces/Snipaste_2026-02-10_19-13-31.jpg)
 
 ### 0115 卡塔尔劳工和工厂同事带来的思考：黑格尔理论
 

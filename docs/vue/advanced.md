@@ -241,7 +241,7 @@ updated() {
 }
 ```
 也可以对打包之后的文件(node_modules/vue/dist)进行debug调试：
-![](https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/pieces/Snipaste_2024-02-11_14-46-40.jpg)
+![placeholder](https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/pieces/Snipaste_2024-02-11_14-46-40.jpg)
 
 ## 三.插槽
 

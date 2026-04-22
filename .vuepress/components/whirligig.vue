@@ -174,12 +174,12 @@
             <div id="stage">
                 <div id="container">
                     <!-- 此处可上传自己的图片 -->
-                    <img :src="imgSrc[0]" class='piece' style="-webkit-transform: rotateY(0deg) translateZ(196px);">
-                    <img :src="imgSrc[1]" class='piece' style="-webkit-transform: rotateY(60deg) translateZ(196px);">
-                    <img :src="imgSrc[2]" class='piece' style="-webkit-transform: rotateY(120deg) translateZ(196px);">
-                    <img :src="imgSrc[3]" class='piece' style="-webkit-transform: rotateY(180deg) translateZ(196px);">
-                    <img :src="imgSrc[4]" class='piece' style="-webkit-transform: rotateY(240deg) translateZ(196px);">
-                    <img :src="imgSrc[5]" class='piece' style="-webkit-transform: rotateY(300deg) translateZ(196px);">
+                    <img alt="trans" :src="imgSrc[0]" class='piece' style="-webkit-transform: rotateY(0deg) translateZ(196px);">
+                    <img alt="trans" :src="imgSrc[1]" class='piece' style="-webkit-transform: rotateY(60deg) translateZ(196px);">
+                    <img alt="trans" :src="imgSrc[2]" class='piece' style="-webkit-transform: rotateY(120deg) translateZ(196px);">
+                    <img alt="trans" :src="imgSrc[3]" class='piece' style="-webkit-transform: rotateY(180deg) translateZ(196px);">
+                    <img alt="trans" :src="imgSrc[4]" class='piece' style="-webkit-transform: rotateY(240deg) translateZ(196px);">
+                    <img alt="trans" :src="imgSrc[5]" class='piece' style="-webkit-transform: rotateY(300deg) translateZ(196px);">
                 </div>
             </div>
         </div>

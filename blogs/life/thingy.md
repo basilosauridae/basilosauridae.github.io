@@ -37,7 +37,7 @@ categories:
 
 1933年，工程师亨利贝克将原有的图纸进行重新设计，此地铁图是1928年版的一种抽象，它没有追求真是道路的全部细节，站点之间用直线描绘的方式，取代了原有的曲线，还用颜色区分了不同的线路，这种绘制地图的方式至今仍在沿用。
 
-![](https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/pieces/Snipaste_2024-08-17_00-25-48.jpg)
+![placeholder](https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/pieces/Snipaste_2024-08-17_00-25-48.jpg)
 
 这个例子中，抽象的目的是为了给人们提供乘坐地铁最重要信息：线路之间交叉互通的关系、站点之间的先后关系和换乘的关系。而并不关注路线的曲折、沿途经过的河流等。
 
@@ -47,14 +47,14 @@ categories:
 
 1936年，阿兰图灵在年仅24岁就发表了一篇论文，论文中描述了一种通用的计算机器，宣称可以完成任何的计算序列。这种理想的计算模型，后来被人们称为“图林机”。图灵机的设想使得计算通用化变成了可能。
 
-![](https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/pieces/Snipaste_2024-08-17_00-44-05.jpg)
+![placeholder](https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/pieces/Snipaste_2024-08-17_00-44-05.jpg)
 
 （具体演示过程可以查看百科，很有意思）通用图灵机向人们展示这样一个过程:程序和其输入可以先保存到存储带上，图灵机就按程序一步一步运行直到给出结果，结果也保存在存储带上。更重要的是，隐约可以看到现代计算机主要构成，尤其是冯・诺依曼理论的主要构成。
 
 计算的本质就是符号的转化，而图灵第一次在符号逻辑和实体世界之间建立了某种联系，奠定了通用计算机的理论基础。**任何现代计算机都可以视为一个足够复杂的图灵机，但由于它的状态和存储总是有限的，因此永远无法超越理想图林机的能力。**
 
 图灵机是抽象思维方法运用的典型成果。我们作为使用计算机的现代人，掌握将现实问题转化为计算问题的抽象能力，是最基本的需求。
-![](https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/pieces/Snipaste_2024-08-17_00-58-24.jpg)
+![placeholder](https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/pieces/Snipaste_2024-08-17_00-58-24.jpg)
 
 ## 去【普陀山】
 
@@ -116,7 +116,7 @@ categories:
 
 我这次是五一去的济南，空气中能看见随处飞舞的柳絮，搜了搜山东的新闻，关键字【柳絮】带出不少内容：
 
-![](https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/pieces/Snipaste_2024-05-03_13-35-51.jpg)
+![placeholder](https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/pieces/Snipaste_2024-05-03_13-35-51.jpg)
 
 查阅资料，柳絮是种子。有些新闻报道说它粘上花粉而致人过敏是误把种子当成了花，当然是错误的。事实上，柳枝在早春萌芽的同时已然开花。古人也有把柳絮误当成花的，甚至说“杨（柳）花入水化而为浮萍”，那更是错误。
 
@@ -124,7 +124,7 @@ categories:
 
 以上，柳树是在城市绿地中完全有必要存在的树种。但可以采取一些减少柳树飞絮的措施：
 
-![](https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/pieces/Snipaste_2024-05-03_13-44-59.jpg)
+![placeholder](https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/pieces/Snipaste_2024-05-03_13-44-59.jpg)
 
 ## 去【海南】
 
