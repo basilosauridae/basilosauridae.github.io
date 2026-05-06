@@ -1,6 +1,6 @@
 ---
 title: 花花是一只猫
-date: 2026-03-21
+date: 2026-05-06
 categories:
   - life
 modules:
@@ -14,6 +14,12 @@ modules:
 <flower-cat/>
 
 ## 猫腾马跃（2026年）
+
+### 美味多春鱼
+
+猫猫的快乐很简单，一条香脆多春鱼就可以满足。吃有嚼劲的食物时，花花的鼻子会皱起来，尾巴高高扬起，春天就是要吃多春鱼！
+
+![placeholder](https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/cat/eatingfish.jpg)
 
 ### 花斑谱
 
