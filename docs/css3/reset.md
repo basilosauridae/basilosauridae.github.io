@@ -1,5 +1,5 @@
 ---
-title: reset
+title: 🗑️ Reset
 date: 2020-05-28
 ---
 

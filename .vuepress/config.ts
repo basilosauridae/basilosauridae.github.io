@@ -29,7 +29,7 @@ export default defineUserConfig({
       "/docs/css3/": [
         {
           text: "fabrique",
-          children: ["whirligig","magic","shadow","reset","colorful"],
+          children: ["whirligig","magic","shadow","reset","games"],
         }
       ]
     },
