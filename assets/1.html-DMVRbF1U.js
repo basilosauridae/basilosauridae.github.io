@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app-BSL1Gq9e.js";const c={};function n(o,r){return a(),t("div")}const l=e(c,[["render",n]]),_=JSON.parse('{"path":"/tags/science/1.html","title":"","lang":"en-US","frontmatter":{"layout":"Categories"},"headers":[],"git":{},"filePathRelative":null}');export{l as comp,_ as data};

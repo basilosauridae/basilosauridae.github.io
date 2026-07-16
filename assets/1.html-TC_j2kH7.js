@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as a}from"./app-BSL1Gq9e.js";const r={};function n(o,c){return a(),e("div")}const l=t(r,[["render",n]]),i=JSON.parse('{"path":"/tags/interview/1.html","title":"","lang":"en-US","frontmatter":{"layout":"Categories"},"headers":[],"git":{},"filePathRelative":null}');export{l as comp,i as data};
