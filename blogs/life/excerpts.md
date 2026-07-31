@@ -21,6 +21,8 @@ categories:
 
 ## 2025年
 
+- Take care of the minutes, and the hours will take care of themselves.
+
 - 在所有勇气里，我最喜欢破釜沉舟。那种没招了硬着头皮干的感觉，我称之为大运前的核心装备。
 
 - INTJ首要功能是Ni,最大的天赋隐藏其中，INTJ想要最快进步，最佳办法是广泛且大量的摄入优质信息，也就是阅读经典，不限于书籍、传记、电影等，脑子里一定要充分大量的摄入，才能够融会贯通输出提炼后的成果。
