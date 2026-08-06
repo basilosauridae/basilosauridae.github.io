@@ -11,7 +11,7 @@ export default defineUserConfig({
     author: "Ying",
     authorAvatar: "/avatar.png",
     primaryColor: 'mediumpurple',
-    colorMode: 'dark',
+    colorMode: 'dark',//dark、light、auto
     docsRepo: "https://github.com/basilosauridae",
     docsBranch: "main",
     docsDir: '/blogs',
