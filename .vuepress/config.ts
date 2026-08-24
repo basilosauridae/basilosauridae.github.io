@@ -108,17 +108,17 @@ export default defineUserConfig({
         logo: "https://image.tianhw.top/avatar.webp"
       }
     ],
-    // commentConfig: {
-    //   type: "valine",
-    //   options: {
-    //     appId: "Q6hMeY2PSaM9FMkXetzoJoU5-gzGzoHsz",
-    //     appKey: "iLQlev5jo2Cm5pLcI0z3qhtr",
-    //     placeholder: "填写邮箱可以收到回复提醒哦！",
-    //     verify: true, // 验证码服务
-    //     // notify: true, //
-    //     recordIP: true,
-    //     // hideComments: true
-    //   },
-    // },
+    commentConfig: {
+      type: "giscus",
+        options: {
+          repo: "basilosauridae/basilosauridae.github.io",
+          repoId: "R_kgDOH77OxA",
+          category: "Announcements",
+          categoryId: "DIC_kwDOH77OxM4DEFdf",
+          mapping: "pathname",
+          loading: "lazy",   // 滚动到评论区才加载
+          theme: "light_tritanopia"
+      },
+    },
   }),
 });
