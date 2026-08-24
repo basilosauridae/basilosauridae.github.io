@@ -37,10 +37,7 @@ defineOptions({
   name: 'flowerCat'
 })
 onMounted(() => {
-  console.log('flower-cat mounted');
   const el = document.querySelector('flower-cat');
-  console.log('Element:', el);
-  console.log('Computed style:', getComputedStyle(el));
 });
 
 // 计算猫咪年龄信息
