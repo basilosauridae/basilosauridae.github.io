@@ -49,64 +49,7 @@ export default defineUserConfig({
         ],
       },
       { text: "Timeline", link: "/timeline" },
-      { text: "Links", link: "/friendship-link" },
-    ],
-    friendshipLinks: [
-      {
-        title: "阮一峰的网络日志",
-        logo: "https://www.ruanyifeng.com/blog/images/person2.jpg",
-        link: "https://www.ruanyifeng.com/blog/"
-      },
-      {
-        title:"7gugu's Blog",
-        logo:"https://7gugu.com/wp-content/uploads/2018/01/favicon.png",
-        link:"https://7gugu.com/"
-      },
-      {
-        title:"❖星港◎Star☆",
-        logo:"https://bu.dusays.com/2025/04/11/67f92f6fcfb26.webp",
-        link:"https://blog.starsharbor.com/"
-      },
-      {
-        title:"Hsu Yeung 的博客",
-        logo:"https://www.hsuyeung.com/img/avatar.jpg",
-        link:"https://www.hsuyeung.com/"
-      },
-      {
-        title:"清羽飞扬",
-        logo:"https://blog.liushen.fun/info/avatar.ico",
-        link:"https://blog.liushen.fun/"
-      },
-      {
-        title:"Arthals' ink",
-        logo:"https://cdn.arthals.ink/Arthals.png",
-        link:"https://arthals.ink/"
-      },
-      {
-        title:"微霞",
-        logo:"https://cdn.yuuu.org/img/avatar.webp",
-        link:"https://yuuu.org/"
-      },
-      {
-        title:"Xuan's blog",
-        link:"https://blog.ybyq.wang/",
-        logo:"https://blog.ybyq.wang/usr/themes/handsome/assets/img/avatar.png"
-      },
-      {
-        title:"Mofei",
-        link:"https://www.mofei.life",
-        logo:"https://www.mofei.life/img/mofei-logo_500_500.png"
-      },
-      {
-        title:"小不的窝",
-        link:"https://blog.donotknow.top/",
-        logo:"https://s2.loli.net/2025/01/26/Q6WYTHDfPR2bCyg.jpg",
-      },
-      {
-        title: "THW's Blog",
-        link: "https://blog.tianhw.top",
-        logo: "https://image.tianhw.top/avatar.webp"
-      }
+      { text: "Links", link: "/blogs/life/links" },
     ],
     commentConfig: {
       type: "giscus",
