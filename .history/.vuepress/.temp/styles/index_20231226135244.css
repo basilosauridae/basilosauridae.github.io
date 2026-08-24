@@ -1,0 +1,99 @@
+.home-wrapper{
+  --border-size: 0.3rem;
+  border: var(--border-size) dotted transparent;
+  background-image: linear-gradient(
+      to right,
+      rgb(255 255 255 / var(--opacity)),
+      rgb(255 255 255 / var(--opacity))
+    ),
+    conic-gradient(
+      from var(--angle),
+      #ffe105 0deg 90deg,
+      #96daf9 90deg 180deg,
+      #fea6de 180deg 270deg,
+      #cc96f5 270deg 360deg
+    );
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  .banner-brand-wrapper{
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: url('https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/memories/002.jpg')center center;
+    animation: switch 10s infinite;
+  }
+  @keyframes switch {
+    25%{
+      background: url('https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/memories/003.jpg')center center;
+    }
+    50%{
+      background: url('https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/memories/004.jpg')center center;
+    }
+    75%{
+      background: url('https://cetacea-1304984885.cos.ap-shanghai.myqcloud.com/memories/005.jpg')center center;
+    }
+  }
+}
+.home-blog-content {
+  .blog-list{
+    .post-item-container{
+      background: transparent;
+      border-color:#bb6bf8 #f885ce #78cdf5 #ffe105;
+    }
+    .post-item-container:hover{
+      border-color:#bb6bf8 #f885ce #78cdf5 #fbdd00;
+      border-width: 0.3rem;
+    }
+  }
+  .info-wrapper{
+    --border-size: 0.3rem;
+    border: var(--border-size) dotted transparent;
+    background-image: linear-gradient(
+        to right,
+        rgb(255 255 255 / var(--opacity)),
+        rgb(255 255 255 / var(--opacity))
+      ),
+      conic-gradient(
+        from var(--angle),
+        #cc96f5 0deg 90deg,
+        #fea6de 90deg 180deg,
+        #96daf9 180deg 270deg,
+        #ffe105 270deg 360deg
+      );
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+  }
+}
+/* Animate when Houdini is available */
+@supports (background: paint(houdini)) {
+  @property --opacity {
+    syntax: "<number>";
+    initial-value: 0.5;
+    inherits: false;
+  }
+
+  @property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+
+  @keyframes opacityChange {
+    to {
+      --opacity: 0;
+    }
+  }
+
+  @keyframes rotate {
+    to {
+      --angle: 360deg;
+    }
+  }
+
+  .info-wrapper {
+    animation: rotate 8s linear infinite, opacityChange 3s infinite alternate;
+  }
+  .home-wrapper{
+    animation: rotate 8s linear infinite, opacityChange 3s infinite alternate;
+  }
+}
