@@ -36,10 +36,6 @@ import { computed,onMounted } from 'vue'
 defineOptions({
   name: 'flowerCat'
 })
-onMounted(() => {
-  const el = document.querySelector('flower-cat');
-});
-
 // 计算猫咪年龄信息
 const ageInfo = computed(() => {
   // 解析出生日期字符串为Date对象

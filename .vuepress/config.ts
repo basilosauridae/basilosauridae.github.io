@@ -1,11 +1,17 @@
 import { defineUserConfig } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
 import { viteBundler } from '@vuepress/bundler-vite'
+import { sitemapPlugin } from '@vuepress/plugin-sitemap'
 
 export default defineUserConfig({
   title: "Yingineer",
   description: "Just playing around",
   bundler: viteBundler(),
+  plugins: [
+    sitemapPlugin({
+      hostname: 'https://basilosauridae.github.io'
+    })
+  ],
   theme: recoTheme({
     logo: "/favicon.ico",
     author: "Ying",
